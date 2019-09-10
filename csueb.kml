@@ -6202,1283 +6202,1231 @@
 				</Polygon>
 			</Placemark>
 		</Folder>
-	<Folder id="Parking">
-		<name>General Parking</name>
-		<open>1</open>
-		<Placemark id="LotA">
-			<name>Lot A</name>
-			<description>Lot A</description>
-			<LookAt>
-				<longitude>-122.0583062621387</longitude>
-				<latitude>37.65601383634051</latitude>
-				<altitude>0</altitude>
-				<heading>10.35693755206089</heading>
-				<tilt>44.26873916479239</tilt>
-				<range>88.88295968023152</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot3</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0583062621387,37.65601383634051,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot A</name>
-			<styleUrl>#m_ylw-pushpin0</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.0587683189796,37.65649203893955,24 -122.0588482936336,37.65640935003068,24 -122.0590261219215,37.65625526951521,24 -122.0589680675748,37.65612717300138,24 -122.0588022124991,37.65598827714581,24 -122.0586670852314,37.65581599831852,24 -122.058637820975,37.65554636997655,24 -122.0585197919944,37.65538099784236,24 -122.0581713716098,37.65514879118007,24 -122.0577449123441,37.65483384932752,24 -122.0572151775045,37.65441751330798,24 -122.0568888182687,37.65468285571187,24 -122.056663455912,37.65480930501589,24 -122.0565179010884,37.65494928822503,24 -122.0568319472804,37.65531030416003,24 -122.057204008341,37.65562744586468,24 -122.0578694801506,37.65605277319344,24 -122.058685645767,37.65649104938211,24 -122.0587683189796,37.65649203893955,24 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="LotC">
-			<name>Lot C</name>
-			<description>Lot C</description>
-			<LookAt>
-				<longitude>-122.0519295239493</longitude>
-				<latitude>37.65193151021408</latitude>
-				<altitude>0</altitude>
-				<heading>-44.8528326904549</heading>
-				<tilt>37.0429061870792</tilt>
-				<range>292.2364757611243</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot2</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0519295239493,37.65193151021408,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="LotC1">
-			<name>Lot C1</name>
-			<description>Lot C1</description>
-			<LookAt>
-				<longitude>-122.0506820599396</longitude>
-				<latitude>37.65175156029684</latitude>
-				<altitude>0</altitude>
-				<heading>-44.85207065216412</heading>
-				<tilt>37.0428704594567</tilt>
-				<range>285.6343473169784</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot2</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0506820599396,37.65175156029684,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot C &amp; C1</name>
-			<styleUrl>#msn_ylw-pushpin4</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.053197830561,37.65246077962949,24 -122.0530411264498,37.65239536279977,24 -122.0527618642383,37.65224164557143,24 -122.0525590889612,37.65206236588021,24 -122.0523482830319,37.65181365775346,24 -122.0521461607814,37.65160742379324,24 -122.0517630193023,37.65131923168773,24 -122.0515542456351,37.65147737683886,24 -122.051288243216,37.65165062710492,24 -122.0507444941321,37.65131028906843,24 -122.0503073958979,37.65104161601449,24 -122.049771279155,37.65156772429828,24 -122.0507281379612,37.65216681115918,24 -122.0511709581576,37.65177788572438,24 -122.0518147429553,37.65228570228675,24 -122.0521768040459,37.65258291757709,24 -122.0524297295139,37.65235927499261,24 -122.0529776210727,37.65276508526819,24 -122.0531045800874,37.65259866616095,24 -122.053197830561,37.65246077962949,24 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="LotD">
-			<name>Lot D</name>
-			<description>Lot D</description>
-			<LookAt>
-				<longitude>-122.052737890777</longitude>
-				<latitude>37.65478566721593</latitude>
-				<altitude>0</altitude>
-				<heading>-4.832194541028424</heading>
-				<tilt>0</tilt>
-				<range>372.1523256656489</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot1</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0529121175213,37.65497248778654,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot D</name>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.0534556659746,37.65518786434685,16 -122.0531148192824,37.65450752992706,16 -122.052503179339,37.65511765964884,16 -122.0527193146353,37.65548589881513,16 -122.0531282579802,37.65533217048075,16 -122.0534556659746,37.65518786434685,16 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="LotF">
-			<name>Lot F</name>
-			<description>Lot F</description>
-			<LookAt>
-				<longitude>-122.0518264293284</longitude>
-				<latitude>37.65570626077566</latitude>
-				<altitude>0</altitude>
-				<heading>-4.83163770475711</heading>
-				<tilt>0</tilt>
-				<range>372.2618949710342</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot1</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.051928928441,37.65635499075594,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot F</name>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.0525914638068,37.657068515126,16 -122.0525848430332,37.65700370754327,16 -122.0524141470069,37.65675956923048,16 -122.0522460996167,37.65644212216822,16 -122.0517367852269,37.6560633486289,16 -122.0515942042639,37.65637677031339,16 -122.0517386869048,37.65669349990352,16 -122.052525137325,37.65711079864166,16 -122.0525914638068,37.657068515126,16 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="LotG">
-			<name>Lot G</name>
-			<description>Lot G</description>
-			<LookAt>
-				<longitude>-122.0512153676686</longitude>
-				<latitude>37.65745280526738</latitude>
-				<altitude>0</altitude>
-				<heading>-4.831264377961096</heading>
-				<tilt>0</tilt>
-				<range>370.6392855134676</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot1</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0520299273237,37.65777292564451,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot G</name>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.052286832267,37.65899279279523,16 -122.0534893861977,37.65789510109162,16 -122.0514607422563,37.65669174869366,16 -122.0511363812422,37.65762819720145,16 -122.0512730811441,37.6580055465796,16 -122.0516298333492,37.65837903280258,16 -122.052015995621,37.65874575665044,16 -122.052286832267,37.65899279279523,16 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="LotH">
-			<name>Lot H</name>
-			<description>Lot H</description>
-			<LookAt>
-				<longitude>-122.0521666511554</longitude>
-				<latitude>37.65837339013888</latitude>
-				<altitude>0</altitude>
-				<heading>-4.831845539900733</heading>
-				<tilt>0</tilt>
-				<range>372.2136516575643</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot1</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0538669968749,37.65895666985256,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot H</name>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.0556302728534,37.66010448830875,16 -122.0557885420821,37.65926937487345,16 -122.0535931157342,37.65796245600907,16 -122.0525355556562,37.65906593972973,16 -122.0535431881288,37.65959598998519,16 -122.054404415619,37.65987242201553,16 -122.0548763250101,37.65998030586218,16 -122.0556302728534,37.66010448830875,16 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="LotK">
-			<name>Lot K</name>
-			<description>Lot K</description>
-			<LookAt>
-				<longitude>-122.0562526358779</longitude>
-				<latitude>37.65911161269178</latitude>
-				<altitude>4.701994516834476</altitude>
-				<heading>-4.834341860887215</heading>
-				<tilt>0</tilt>
-				<range>375.5052020680101</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot1</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0564836404694,37.65989895709995,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot K</name>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.0571663666246,37.6597795580101,16 -122.0569479176731,37.6595065204807,16 -122.055997117135,37.6592794476591,16 -122.0558801881331,37.66010919236261,16 -122.0574241185607,37.66011730224675,16 -122.0571663666246,37.6597795580101,16 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="LotN">
-			<name>Lot N</name>
-			<description>Lot N</description>
-			<LookAt>
-				<longitude>-122.0620135759254</longitude>
-				<latitude>37.65785974336806</latitude>
-				<altitude>0</altitude>
-				<heading>54.02067854000264</heading>
-				<tilt>0</tilt>
-				<range>292.4753082716405</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot0</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0620015329864,37.65815549863524,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot N</name>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.0624832288231,37.65791933631309,16 -122.0615243772711,37.6578924159633,16 -122.0611892238906,37.65821123670903,16 -122.0612643649475,37.65849693898544,16 -122.0625015929689,37.65854720398531,16 -122.0624832288231,37.65791933631309,16 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="LotP">
-			<name>Lot P</name>
-			<description>Lot P</description>
-			<LookAt>
-				<longitude>-122.0605697279885</longitude>
-				<latitude>37.6590143430299</latitude>
-				<altitude>0</altitude>
-				<heading>16.45981339239018</heading>
-				<tilt>0</tilt>
-				<range>85.89587220981446</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_parking_lot10</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>Student Parking</value>
-				</Data>
-			</ExtendedData>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0602774385807,37.65902392620995,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Parking Lot P</name>
-			<styleUrl>#m_ylw-pushpin2</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-								-122.0610208638233,37.65929271260547,16 -122.0610915580588,37.65883416672363,16 -122.0599854828725,37.65877350905331,16 -122.0598595372293,37.65922726669803,16 -122.0610208638233,37.65929271260547,16 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark>
-			<name>Untitled Path</name>
-			<styleUrl>#msn_ylw-pushpin6</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-						-122.0532654796698,37.65487379965484,0 -122.053158601876,37.65464709353984,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-		<Placemark>
-			<name>Untitled Path</name>
-			<styleUrl>#msn_ylw-pushpin00</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-						-122.056253276548,37.65636050225221,0 -122.0563049046749,37.65640435384554,0 -122.0563873619643,37.65642514098662,0 -122.0564548102415,37.65644710330926,0 
-				</coordinates>
-			</LineString>
-		</Placemark>
-	</Folder>
-	<Folder id="kiosks">
-		<name>Information Kiosks</name>
-		<Placemark id="kiosk_CarlosBee">
-			<name>Information Kiosk - Carlos Bee Blvd.</name>
-			<description>Information Kiosk - Carlos Bee Blvd.</description>
-			<LookAt>
-				<longitude>-122.0613631100159</longitude>
-				<latitude>37.6584362063923</latitude>
-				<altitude>0</altitude>
-				<heading>7.238330586711318</heading>
-				<tilt>0</tilt>
-				<range>169.4105861463232</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_info0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0614787287162,37.65848079322226,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="kiosk_Harder">
-			<name>Information Kiosk - Harder Rd.</name>
-			<description>Information Kiosk - Harder Rd.</description>
-			<LookAt>
-				<longitude>-122.0552575233977</longitude>
-				<latitude>37.65234301263555</latitude>
-				<altitude>0</altitude>
-				<heading>-44.85486603899758</heading>
-				<tilt>37.04010492716599</tilt>
-				<range>313.303582023629</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_info</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0552575233977,37.65234301263554,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
-	<Folder id="ParkingPermits">
-		<name>Parking Permit Dispensers</name>
-		<Placemark id="dispenser_Harder">
-			<name>Daily/Hourly Permit Dispensers - Harder Rd</name>
-			<description>Daily/Hourly Permit Dispensers - Harder Rd</description>
-			<LookAt>
-				<longitude>-122.0553158333019</longitude>
-				<latitude>37.65237678504452</latitude>
-				<altitude>0</altitude>
-				<heading>10.35874672072491</heading>
-				<tilt>60.00253220965531</tilt>
-				<range>79.75694628795176</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0553000736053,37.6523232678178,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="dispenser_LotG">
-			<name>Daily/Hourly Permit Dispensers - Lot G</name>
-			<description>Daily/Hourly Permit Dispensers - Lot G</description>
-			<LookAt>
-				<longitude>-122.0531390969218</longitude>
-				<latitude>37.65842133170965</latitude>
-				<altitude>0</altitude>
-				<heading>-0.7945854727071995</heading>
-				<tilt>4.903018221347986</tilt>
-				<range>140.6936025578632</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0531852565083,37.65829499597651,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="dispenser_LotK">
-			<name>Daily/Hourly Permit Dispensers - Lot K</name>
-			<description>Daily/Hourly Permit Dispensers  - Lot K</description>
-			<LookAt>
-				<longitude>-122.0563175893934</longitude>
-				<latitude>37.65940888462716</latitude>
-				<altitude>0</altitude>
-				<heading>170.9012476552781</heading>
-				<tilt>39.17565044490011</tilt>
-				<range>103.7934392999871</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0566372720839,37.65941401841413,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="dispenser_LotN">
-			<name>Daily/Hourly Permit Dispensers - Lot N</name>
-			<description>Daily/Hourly Permit Dispensers - Lot N</description>
-			<LookAt>
-				<longitude>-122.061714768861</longitude>
-				<latitude>37.65884204153196</latitude>
-				<altitude>0</altitude>
-				<heading>40.46589456865788</heading>
-				<tilt>57.48092381755876</tilt>
-				<range>313.4530637820645</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0623618785044,37.6578930293178,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
-	<Folder>
-		<name>Performance Spaces</name>
-		<Placemark id="AgoraStage">
-			<name>Agora Stage [AG]</name>
-			<description><![CDATA[Agora Stage [AG]
-<img style="max-width:500px;" src="file:///C:/Users/az4882/Pictures/clouds-daylight-forest-592077.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0550646878794</longitude>
-				<latitude>37.65500661102288</latitude>
-				<altitude>0</altitude>
-				<heading>-69.21097772517602</heading>
-				<tilt>53.74414964785374</tilt>
-				<range>231.558887506517</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars02</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0550646878794,37.65500661102288,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Amphitheatre">
-			<name>Pioneer Amphitheatre [PA]</name>
-			<description>Pioneer Amphitheatre [PA]</description>
-			<LookAt>
-				<longitude>-122.0568079890539</longitude>
-				<latitude>37.65893152128505</latitude>
-				<altitude>0</altitude>
-				<heading>-69.21204576015704</heading>
-				<tilt>32.36568031647011</tilt>
-				<range>355.4331634155641</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars01</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0568079890539,37.65893152128505,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="UniversityTheatre">
-			<name>University Theatre [TH]</name>
-			<description>University Theatre [TH]</description>
-			<LookAt>
-				<longitude>-122.0578095329616</longitude>
-				<latitude>37.65936392890788</latitude>
-				<altitude>11.92891991141077</altitude>
-				<heading>-69.21265766669737</heading>
-				<tilt>32.36557918648308</tilt>
-				<range>334.401444386383</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars01</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0578095329616,37.65936392890788,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
-	<Folder id="Housing">
-		<name>Pioneer Heights</name>
-		<open>1</open>
-		<Placemark id="Calaveras">
-			<name>Calaveras</name>
-			<description>Calaveras</description>
-			<LookAt>
-				<longitude>-122.0523683129738</longitude>
-				<latitude>37.65311912166941</latitude>
-				<altitude>11.22903267399664</altitude>
-				<heading>-44.85312755481634</heading>
-				<tilt>37.0486830084584</tilt>
-				<range>413.1439141754437</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0523683129738,37.65311912166941,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Coloma">
-			<name>Coloma</name>
-			<description>Coloma</description>
-			<LookAt>
-				<longitude>-122.0520674425436</longitude>
-				<latitude>37.65347542708043</latitude>
-				<altitude>11.24185211194456</altitude>
-				<heading>-44.85294376497522</heading>
-				<tilt>37.048679987396</tilt>
-				<range>412.5856905382924</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0520674425436,37.65347542708043,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Diablo">
-			<name>Diablo</name>
-			<description>Diablo</description>
-			<LookAt>
-				<longitude>-122.0527487048703</longitude>
-				<latitude>37.65345639762059</latitude>
-				<altitude>12.2076236620287</altitude>
-				<heading>-44.85335998416257</heading>
-				<tilt>37.04963562069274</tilt>
-				<range>412.652756128875</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0527487048703,37.65345639762059,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="ElDorado">
-			<name>El Dorado</name>
-			<description>El Dorado</description>
-			<LookAt>
-				<longitude>-122.0519417776701</longitude>
-				<latitude>37.65267291340965</latitude>
-				<altitude>5.673177155947522</altitude>
-				<heading>-44.85286700932448</heading>
-				<tilt>37.04870976632736</tilt>
-				<range>418.0878034762743</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0519417776701,37.65267291340965,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Juniper">
-			<name>Juniper</name>
-			<description>Juniper</description>
-			<LookAt>
-				<longitude>-122.0527908443473</longitude>
-				<latitude>37.6529065378746</latitude>
-				<altitude>12.58486441682651</altitude>
-				<heading>-44.85338571514561</heading>
-				<tilt>37.04963848944369</tilt>
-				<range>413.1828096376092</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0527908443473,37.6529065378746,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="HousingOffices">
-			<name>Lassen Hall Housing Offices [LH]</name>
-			<description>Lassen Hall Housing Offices [LH]</description>
-			<LookAt>
-				<longitude>-122.0531109967387</longitude>
-				<latitude>37.65363292246943</latitude>
-				<altitude>5.795422743998646</altitude>
-				<heading>-44.8535812821204</heading>
-				<tilt>37.04968896020453</tilt>
-				<range>422.5078521437483</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2006</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0531109967387,37.65363292246943,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Mariposa">
-			<name>Mariposa</name>
-			<description>Mariposa</description>
-			<LookAt>
-				<longitude>-122.0509965471105</longitude>
-				<latitude>37.65221554663668</latitude>
-				<altitude>8.332305381883803</altitude>
-				<heading>-44.85228961443193</heading>
-				<tilt>37.04866687334374</tilt>
-				<range>410.1626561322319</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0509965471105,37.65221554663668,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="PioneerHeights">
-			<name>Pioneer Heights Student Housing [PH]</name>
-			<description>Pioneer Heights Student Housing [PH]</description>
-			<LookAt>
-				<longitude>-122.0533662054937</longitude>
-				<latitude>37.65379834017274</latitude>
-				<altitude>0</altitude>
-				<heading>-44.85373718632285</heading>
-				<tilt>37.04972871900841</tilt>
-				<range>429.8537133960933</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0533662054937,37.65379834017274,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Sequoia">
-			<name>Sequoia</name>
-			<description>Sequoia</description>
-			<LookAt>
-				<longitude>-122.0534848710822</longitude>
-				<latitude>37.65332751658072</latitude>
-				<altitude>11.87663220030565</altitude>
-				<heading>-44.8538096739248</heading>
-				<tilt>37.04964878966613</tilt>
-				<range>415.0859000490813</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0534848710822,37.65332751658072,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Shasta">
-			<name>Shasta</name>
-			<description>Shasta</description>
-			<LookAt>
-				<longitude>-122.0525008259149</longitude>
-				<latitude>37.65397380333103</latitude>
-				<altitude>12.23906267712003</altitude>
-				<heading>-44.8532085574993</heading>
-				<tilt>37.04962683422463</tilt>
-				<range>411.0293407642342</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars21</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0525008259149,37.65397380333103,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Sierra">
-			<name>Sierra</name>
-			<description>Sierra</description>
-			<LookAt>
-				<longitude>-122.0517543720252</longitude>
-				<latitude>37.65288362057181</latitude>
-				<altitude>10.45293449589144</altitude>
-				<heading>-44.85275252467658</heading>
-				<tilt>37.04867647520221</tilt>
-				<range>411.9367830919266</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0517543720252,37.65288362057181,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Sonora">
-			<name>Sonora</name>
-			<description>Sonora</description>
-			<LookAt>
-				<longitude>-122.0515234904974</longitude>
-				<latitude>37.65237336216384</latitude>
-				<altitude>10.4245851323798</altitude>
-				<heading>-44.85261149810881</heading>
-				<tilt>37.04866453094701</tilt>
-				<range>409.7298804362809</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0515234904974,37.65237336216384,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="Tamalpais">
-			<name>Tamalpais</name>
-			<description>Tamalpais</description>
-			<LookAt>
-				<longitude>-122.0531312153545</longitude>
-				<latitude>37.65402636044977</latitude>
-				<altitude>12.138745938252</altitude>
-				<heading>-44.85359364693114</heading>
-				<tilt>37.04868074999297</tilt>
-				<range>412.7266108944452</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2003</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0531312153545,37.65402636044977,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
-	<LookAt>
-		<longitude>-122.0544345068792</longitude>
-		<latitude>37.65759378078418</latitude>
-		<altitude>18.22378038053643</altitude>
-		<heading>-69.21059271154199</heading>
-		<tilt>53.74383156700537</tilt>
-		<range>187.6471232034323</range>
-		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-	</LookAt>
-	<styleUrl>#msn_red-stars010</styleUrl>
-	<Point>
-		<gx:drawOrder>1</gx:drawOrder>
-		<coordinates>-122.0544345068792,37.65759378078418,0</coordinates>
-	</Point>
-<Folder>
-	<name>Sustainability</name>
-	<Placemark>
-		<name>Bike Racks</name>
-		<description>Bike Racks at Meiklejohn Hall</description>
-		<LookAt>
-			<longitude>-122.0549018724491</longitude>
-			<latitude>37.65397168850235</latitude>
-			<altitude>0</altitude>
-			<heading>173.069231196644</heading>
-			<tilt>61.71917974215568</tilt>
-			<range>87.97771366761462</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.055008340698,37.65390288948844,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark>
-		<name>Diversity and Inclusion Student Center</name>
-		<description>Diversity and Inclusion Student Center</description>
-		<LookAt>
-			<longitude>-122.0553220404478</longitude>
-			<latitude>37.65426055743884</latitude>
-			<altitude>5.784732451848782</altitude>
-			<heading>-110.3972448311076</heading>
-			<tilt>64.90557182565127</tilt>
-			<range>146.3058522673807</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0552486230675,37.6544268628726,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark>
-		<name>Drought Tolerant Landscape</name>
-		<description>Drought Tolerant Landscape</description>
-		<LookAt>
-			<longitude>-122.0548846491171</longitude>
-			<latitude>37.65319583872947</latitude>
-			<altitude>0</altitude>
-			<heading>-25.96739898458734</heading>
-			<tilt>48.41183668191552</tilt>
-			<range>133.1433543290954</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0548919376519,37.65316813110975,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark>
-		<name>Electric Car Charging Stations</name>
-		<description>Electric Car Charging Stations</description>
-		<LookAt>
-			<longitude>-122.05326319248</longitude>
-			<latitude>37.65834795579877</latitude>
-			<altitude>0</altitude>
-			<heading>12.94297763014996</heading>
-			<tilt>11.41604614995737</tilt>
-			<range>233.4827798494338</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0532136651778,37.65826449793007,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="hydration1">
-		<name>Hydration Station (PE)</name>
-		<description>Hydration Station near PE Building</description>
-		<Camera>
-			<longitude>-122.0581248858498</longitude>
-			<latitude>37.65722179533959</latitude>
-			<altitude>136.2857598695083</altitude>
-			<heading>60.11619643489017</heading>
-			<tilt>40.72983675424384</tilt>
-			<roll>2.066961219322371</roll>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</Camera>
-		<styleUrl>#m_ylw-pushpin00</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0573591109558,37.6576525846837,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="hydration2">
-		<name>Hydration Station (UU Old)</name>
-		<description>Hydration Station near Old University Union</description>
-		<LookAt>
-			<longitude>-122.0555693746197</longitude>
-			<latitude>37.6550206918817</latitude>
-			<altitude>0</altitude>
-			<heading>-80.66171494790105</heading>
-			<tilt>54.74426851972756</tilt>
-			<range>118.9679090367179</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0554970316316,37.65487241447892,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="hydration3">
-		<name>Hydration Station (LI)</name>
-		<description>Hydration Station near University Library</description>
-		<LookAt>
-			<longitude>-122.0559848310167</longitude>
-			<latitude>37.65628635440289</latitude>
-			<altitude>6.463417189874169</altitude>
-			<heading>-132.699218060731</heading>
-			<tilt>61.97316524598098</tilt>
-			<range>139.0352624207527</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0559594832423,37.65635030166699,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark>
-		<name>Office of Sustainability</name>
-		<description>Office of Sustainability</description>
-		<LookAt>
-			<longitude>-122.0545844935405</longitude>
-			<latitude>37.65707313352297</latitude>
-			<altitude>0</altitude>
-			<heading>-63.22581596372373</heading>
-			<tilt>57.81497614304031</tilt>
-			<range>335.2242265240997</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0542601450054,37.65757159446706,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark>
-		<name>Zagster Bike Share</name>
-		<description>Zagster Bike Share</description>
-		<LookAt>
-			<longitude>-122.0542888212452</longitude>
-			<latitude>37.654288561634</latitude>
-			<altitude>0</altitude>
-			<heading>26.1575231266794</heading>
-			<tilt>60.00255380438055</tilt>
-			<range>98.30679577691467</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0542268546436,37.65415470415565,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="zipcar2">
-		<name>Zipcar (Pioneer Heights)</name>
-		<description>Zipcar at Pioneer Heights</description>
-		<LookAt>
-			<longitude>-122.0518130092813</longitude>
-			<latitude>37.65231589440788</latitude>
-			<altitude>0</altitude>
-			<heading>26.16066637171842</heading>
-			<tilt>39.73955272896357</tilt>
-			<range>173.5122444628347</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0521889212779,37.65256043316826,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="zipcar1">
-		<name>Zipcar (Lot D)</name>
-		<description>Zipcar in Parking Lot D</description>
-		<LookAt>
-			<longitude>-122.053195143249</longitude>
-			<latitude>37.65481145195422</latitude>
-			<altitude>0</altitude>
-			<heading>-75.52118005967481</heading>
-			<tilt>60.00250731770935</tilt>
-			<range>92.84099521555856</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#m_ylw-pushpin20</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0530411303131,37.65466504218892,0</coordinates>
-		</Point>
-	</Placemark>
-</Folder>
-<Folder>
-	<name>Transportation</name>
-	<Placemark id="BusStopLI">
-		<name>AC Bus Stop (Rte. 60 - LI)</name>
-		<description>AC Bus Stop (Rte. 60 - LI)</description>
-		<LookAt>
-			<longitude>-122.0573359450863</longitude>
-			<latitude>37.65578021528643</latitude>
-			<altitude>0</altitude>
-			<heading>48.70084216968573</heading>
-			<tilt>0</tilt>
-			<range>212.4769423582092</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#msn_bus</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0573556437411,37.65588590420378,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="BusStopRAW">
-		<name>AC Bus Stop (Rte. 60 - RAW)</name>
-		<description>AC Bus Stop (Rte. 60 - RAW)</description>
-		<LookAt>
-			<longitude>-122.0537339085142</longitude>
-			<latitude>37.65377857799502</latitude>
-			<altitude>0</altitude>
-			<heading>18.07647567960676</heading>
-			<tilt>0</tilt>
-			<range>178.4480845221601</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#msn_bus00</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0534535435509,37.65409808995238,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="BusStopSA">
-		<name>AC Bus Stop (Rte. 60 - SA)</name>
-		<description>AC Bus Stop (Rte. 60 - SA)</description>
-		<LookAt>
-			<longitude>-122.0536212873659</longitude>
-			<latitude>37.65818624453827</latitude>
-			<altitude>0</altitude>
-			<heading>-36.48094989262132</heading>
-			<tilt>60.0042252281229</tilt>
-			<range>175.9261905989773</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#msn_bus01</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0536269959108,37.65780299433372,0</coordinates>
-		</Point>
-	</Placemark>
-	<Placemark id="ShuttleRAW">
-		<name>CSUEB Shuttle to BART - (RAW)</name>
-		<description>CSUEB Shuttle to BART - (RAW)</description>
-		<LookAt>
-			<longitude>-122.053758717402</longitude>
-			<latitude>37.65384529611243</latitude>
-			<altitude>0</altitude>
-			<heading>10.35971817343759</heading>
-			<tilt>0</tilt>
-			<range>244.5542894732116</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#msn_bus0</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0535054597533,37.65403374262063,0</coordinates>
-		</Point>
-	</Placemark>
-</Folder>
-<Folder>
-	<name>University Facilities</name>
-	<Placemark id="Accessibility Services">
-		<name>Accessibility Services [AS]</name>
-		<description>Accessibility Services [AS]</description>
-		<LookAt>
-			<longitude>-122.0560647351907</longitude>
-			<latitude>37.65593844660093</latitude>
-			<altitude>9.165364566460356</altitude>
-			<heading>-119.608909376399</heading>
-			<tilt>50.15337199023114</tilt>
-			<range>212.0827881051683</range>
-			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-		</LookAt>
-		<styleUrl>#msn_red-stars3</styleUrl>
-		<Point>
-			<gx:drawOrder>1</gx:drawOrder>
-			<coordinates>-122.0557204605966,37.65585387084345,0</coordinates>
-		</Point>
-	</Placemark>
-		<Placemark id="BoilerPlant">
-			<name>Boiler Plant/Storage [BP]</name>
+		<Folder id="Parking">
+			<name>General Parking</name>
 			<open>1</open>
-			<description>Boiler Plant/Storage [BP]</description>
-			<LookAt>
-				<longitude>-122.0535485032444</longitude>
-				<latitude>37.65580312241585</latitude>
-				<altitude>0</altitude>
-				<heading>175.2435696585062</heading>
-				<tilt>43.30664806602975</tilt>
-				<range>191.7241715476486</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0533303580219,37.65583200016413,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="facilities">
-			<name>Facilities Maintenance [FM]</name>
-			<description>Facilities Maintenance [FM]</description>
-			<LookAt>
-				<longitude>-122.0538226312747</longitude>
-				<latitude>37.65563048416765</latitude>
-				<altitude>0</altitude>
-				<heading>175.2434021926972</heading>
-				<tilt>43.30715763199477</tilt>
-				<range>190.7393769534326</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars2</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0536487134946,37.65572712405947,0</coordinates>
-			</Point>
-			<Placemark id="Receiving">
-				<name>Corporation Yard/Receiving [CY]</name>
-				<description>Corporation Yard/Receiving [CY]</description>
+			<Placemark id="LotA">
+				<name>Lot A</name>
+				<description>Lot A</description>
 				<LookAt>
-					<longitude>-122.05348426439</longitude>
-					<latitude>37.65536162651804</latitude>
-					<altitude>4.592521784087588</altitude>
-					<heading>-47.50643452818317</heading>
-					<tilt>36.7761734961703</tilt>
-					<range>419.5164444138178</range>
+					<longitude>-122.0583062621387</longitude>
+					<latitude>37.65601383634051</latitude>
+					<altitude>0</altitude>
+					<heading>10.35693755206089</heading>
+					<tilt>44.26873916479239</tilt>
+					<range>88.88295968023152</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_red-stars021</styleUrl>
+				<styleUrl>#msn_parking_lot3</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.05348426439,37.65536162651804,0</coordinates>
+					<coordinates>-122.0583062621387,37.65601383634051,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot A</name>
+				<styleUrl>#m_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.0587683189796,37.65649203893955,24 -122.0588482936336,37.65640935003068,24 -122.0590261219215,37.65625526951521,24 -122.0589680675748,37.65612717300138,24 -122.0588022124991,37.65598827714581,24 -122.0586670852314,37.65581599831852,24 -122.058637820975,37.65554636997655,24 -122.0585197919944,37.65538099784236,24 -122.0581713716098,37.65514879118007,24 -122.0577449123441,37.65483384932752,24 -122.0572151775045,37.65441751330798,24 -122.0568888182687,37.65468285571187,24 -122.056663455912,37.65480930501589,24 -122.0565179010884,37.65494928822503,24 -122.0568319472804,37.65531030416003,24 -122.057204008341,37.65562744586468,24 -122.0578694801506,37.65605277319344,24 -122.058685645767,37.65649104938211,24 -122.0587683189796,37.65649203893955,24 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="LotC">
+				<name>Lot C</name>
+				<description>Lot C</description>
+				<LookAt>
+					<longitude>-122.0519295239493</longitude>
+					<latitude>37.65193151021408</latitude>
+					<altitude>0</altitude>
+					<heading>-44.8528326904549</heading>
+					<tilt>37.0429061870792</tilt>
+					<range>292.2364757611243</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0519295239493,37.65193151021408,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="LotC1">
+				<name>Lot C1</name>
+				<description>Lot C1</description>
+				<LookAt>
+					<longitude>-122.0506820599396</longitude>
+					<latitude>37.65175156029684</latitude>
+					<altitude>0</altitude>
+					<heading>-44.85207065216412</heading>
+					<tilt>37.0428704594567</tilt>
+					<range>285.6343473169784</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot2</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0506820599396,37.65175156029684,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot C &amp; C1</name>
+				<styleUrl>#msn_ylw-pushpin4</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.053197830561,37.65246077962949,24 -122.0530411264498,37.65239536279977,24 -122.0527618642383,37.65224164557143,24 -122.0525590889612,37.65206236588021,24 -122.0523482830319,37.65181365775346,24 -122.0521461607814,37.65160742379324,24 -122.0517630193023,37.65131923168773,24 -122.0515542456351,37.65147737683886,24 -122.051288243216,37.65165062710492,24 -122.0507444941321,37.65131028906843,24 -122.0503073958979,37.65104161601449,24 -122.049771279155,37.65156772429828,24 -122.0507281379612,37.65216681115918,24 -122.0511709581576,37.65177788572438,24 -122.0518147429553,37.65228570228675,24 -122.0521768040459,37.65258291757709,24 -122.0524297295139,37.65235927499261,24 -122.0529776210727,37.65276508526819,24 -122.0531045800874,37.65259866616095,24 -122.053197830561,37.65246077962949,24 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="LotD">
+				<name>Lot D</name>
+				<description>Lot D</description>
+				<LookAt>
+					<longitude>-122.052737890777</longitude>
+					<latitude>37.65478566721593</latitude>
+					<altitude>0</altitude>
+					<heading>-4.832194541028424</heading>
+					<tilt>0</tilt>
+					<range>372.1523256656489</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot1</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0529121175213,37.65497248778654,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot D</name>
+				<styleUrl>#m_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.0534556659746,37.65518786434685,16 -122.0531148192824,37.65450752992706,16 -122.052503179339,37.65511765964884,16 -122.0527193146353,37.65548589881513,16 -122.0531282579802,37.65533217048075,16 -122.0534556659746,37.65518786434685,16 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="LotF">
+				<name>Lot F</name>
+				<description>Lot F</description>
+				<LookAt>
+					<longitude>-122.0518264293284</longitude>
+					<latitude>37.65570626077566</latitude>
+					<altitude>0</altitude>
+					<heading>-4.83163770475711</heading>
+					<tilt>0</tilt>
+					<range>372.2618949710342</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot1</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.051928928441,37.65635499075594,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot F</name>
+				<styleUrl>#m_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.0525914638068,37.657068515126,16 -122.0525848430332,37.65700370754327,16 -122.0524141470069,37.65675956923048,16 -122.0522460996167,37.65644212216822,16 -122.0517367852269,37.6560633486289,16 -122.0515942042639,37.65637677031339,16 -122.0517386869048,37.65669349990352,16 -122.052525137325,37.65711079864166,16 -122.0525914638068,37.657068515126,16 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="LotG">
+				<name>Lot G</name>
+				<description>Lot G</description>
+				<LookAt>
+					<longitude>-122.0512153676686</longitude>
+					<latitude>37.65745280526738</latitude>
+					<altitude>0</altitude>
+					<heading>-4.831264377961096</heading>
+					<tilt>0</tilt>
+					<range>370.6392855134676</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot1</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0520299273237,37.65777292564451,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot G</name>
+				<styleUrl>#m_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.052286832267,37.65899279279523,16 -122.0534893861977,37.65789510109162,16 -122.0514607422563,37.65669174869366,16 -122.0511363812422,37.65762819720145,16 -122.0512730811441,37.6580055465796,16 -122.0516298333492,37.65837903280258,16 -122.052015995621,37.65874575665044,16 -122.052286832267,37.65899279279523,16 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="LotH">
+				<name>Lot H</name>
+				<description>Lot H</description>
+				<LookAt>
+					<longitude>-122.0521666511554</longitude>
+					<latitude>37.65837339013888</latitude>
+					<altitude>0</altitude>
+					<heading>-4.831845539900733</heading>
+					<tilt>0</tilt>
+					<range>372.2136516575643</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot1</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0538669968749,37.65895666985256,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot H</name>
+				<styleUrl>#m_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.0556302728534,37.66010448830875,16 -122.0557885420821,37.65926937487345,16 -122.0535931157342,37.65796245600907,16 -122.0525355556562,37.65906593972973,16 -122.0535431881288,37.65959598998519,16 -122.054404415619,37.65987242201553,16 -122.0548763250101,37.65998030586218,16 -122.0556302728534,37.66010448830875,16 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="LotK">
+				<name>Lot K</name>
+				<description>Lot K</description>
+				<LookAt>
+					<longitude>-122.0562526358779</longitude>
+					<latitude>37.65911161269178</latitude>
+					<altitude>4.701994516834476</altitude>
+					<heading>-4.834341860887215</heading>
+					<tilt>0</tilt>
+					<range>375.5052020680101</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot1</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0564836404694,37.65989895709995,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot K</name>
+				<styleUrl>#m_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.0571663666246,37.6597795580101,16 -122.0569479176731,37.6595065204807,16 -122.055997117135,37.6592794476591,16 -122.0558801881331,37.66010919236261,16 -122.0574241185607,37.66011730224675,16 -122.0571663666246,37.6597795580101,16 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="LotN">
+				<name>Lot N</name>
+				<description>Lot N</description>
+				<LookAt>
+					<longitude>-122.0620135759254</longitude>
+					<latitude>37.65785974336806</latitude>
+					<altitude>0</altitude>
+					<heading>54.02067854000264</heading>
+					<tilt>0</tilt>
+					<range>292.4753082716405</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot0</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0620015329864,37.65815549863524,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot N</name>
+				<styleUrl>#m_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.0624832288231,37.65791933631309,16 -122.0615243772711,37.6578924159633,16 -122.0611892238906,37.65821123670903,16 -122.0612643649475,37.65849693898544,16 -122.0625015929689,37.65854720398531,16 -122.0624832288231,37.65791933631309,16 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark id="LotP">
+				<name>Lot P</name>
+				<description>Lot P</description>
+				<LookAt>
+					<longitude>-122.0605697279885</longitude>
+					<latitude>37.6590143430299</latitude>
+					<altitude>0</altitude>
+					<heading>16.45981339239018</heading>
+					<tilt>0</tilt>
+					<range>85.89587220981446</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_parking_lot10</styleUrl>
+				<ExtendedData>
+					<Data name="keywords">
+						<displayName>Keywords</displayName>
+						<value>Student Parking</value>
+					</Data>
+				</ExtendedData>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0602774385807,37.65902392620995,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Parking Lot P</name>
+				<styleUrl>#m_ylw-pushpin2</styleUrl>
+				<Polygon>
+					<extrude>1</extrude>
+					<tessellate>1</tessellate>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122.0610208638233,37.65929271260547,16 -122.0610915580588,37.65883416672363,16 -122.0599854828725,37.65877350905331,16 -122.0598595372293,37.65922726669803,16 -122.0610208638233,37.65929271260547,16 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin6</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.0532654796698,37.65487379965484,0 -122.053158601876,37.65464709353984,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+			<Placemark>
+				<name>Untitled Path</name>
+				<styleUrl>#msn_ylw-pushpin00</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<coordinates>
+						-122.056253276548,37.65636050225221,0 -122.0563049046749,37.65640435384554,0 -122.0563873619643,37.65642514098662,0 -122.0564548102415,37.65644710330926,0 
+					</coordinates>
+				</LineString>
+			</Placemark>
+		</Folder>
+		<Folder id="kiosks">
+			<name>Information Kiosks</name>
+			<Placemark id="kiosk_CarlosBee">
+				<name>Information Kiosk - Carlos Bee Blvd.</name>
+				<description>Information Kiosk - Carlos Bee Blvd.</description>
+				<LookAt>
+					<longitude>-122.0613631100159</longitude>
+					<latitude>37.6584362063923</latitude>
+					<altitude>0</altitude>
+					<heading>7.238330586711318</heading>
+					<tilt>0</tilt>
+					<range>169.4105861463232</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_info0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0614787287162,37.65848079322226,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="kiosk_Harder">
+				<name>Information Kiosk - Harder Rd.</name>
+				<description>Information Kiosk - Harder Rd.</description>
+				<LookAt>
+					<longitude>-122.0552575233977</longitude>
+					<latitude>37.65234301263555</latitude>
+					<altitude>0</altitude>
+					<heading>-44.85486603899758</heading>
+					<tilt>37.04010492716599</tilt>
+					<range>313.303582023629</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_info</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0552575233977,37.65234301263554,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
-		<Placemark id="Bookstore">
-			<name>Pioneer Bookstore [BK]</name>
-			<description>Pioneer Bookstore [BK]</description>
-			<LookAt>
-				<longitude>-122.0561799899309</longitude>
-				<latitude>37.65515520548671</latitude>
-				<altitude>12.16109014252959</altitude>
-				<heading>-69.21166192575957</heading>
-				<tilt>32.36937046937606</tilt>
-				<range>339.1373005366044</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0561799899309,37.65515520548671,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="RecAndWellness">
-			<name>Recreation and Wellness Center [RAW]</name>
-			<description>Recreation and Wellness Center [RAW]</description>
-			<Camera>
-				<longitude>-122.0540479068664</longitude>
-				<latitude>37.65428735091399</latitude>
-				<altitude>114.8616504245085</altitude>
-				<heading>53.05652063919997</heading>
-				<tilt>24.72001518291727</tilt>
-				<roll>2.445978071351624</roll>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</Camera>
-			<styleUrl>#msn_red-stars020</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0536191032486,37.65454264767755,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Recreation and Wellness Center</name>
-			<description>This is the Recreation and Wellness Ceneter. Students come here to meet their daily workout goals.</description>
-			<styleUrl>#msn_ylw-pushpin3</styleUrl>
-			<Polygon>
-				<extrude>1</extrude>
-				<tessellate>1</tessellate>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							-122.053651025154,37.65408001345234,25 -122.0534452097647,37.65423905226412,25 -122.0532353868192,37.65445643869272,25 -122.0533257965566,37.65467207037855,25 -122.0534242609871,37.65490573983004,25 -122.0537426766186,37.65483752294153,25 -122.054043345953,37.65470870892801,25 -122.0539550574738,37.65450775043507,25 -122.0538729575635,37.65435462514784,25 -122.0538088771624,37.65435999105667,25 -122.0536594811842,37.65407462756014,25 -122.053651025154,37.65408001345234,25 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
-		<Placemark id="SF">
-			<name>Student &amp; Faculty Support Bldg. [SF]</name>
-			<description>Student &amp; Faculty Support Bldg. [SF]</description>
-			<LookAt>
-				<longitude>-122.054621049398</longitude>
-				<latitude>37.65798575958967</latitude>
-				<altitude>0</altitude>
-				<heading>-69.21070964602747</heading>
-				<tilt>32.36562134104918</tilt>
-				<range>343.1682134823253</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars01</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.054621049398,37.65798575958966,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="HealthCenter">
-			<name>Student Health Center [HC]</name>
-			<description><![CDATA[Student Health Center [HC]  <a href="http://www.csueastbay.edu/shcs/">http://www.csueastbay.edu/shcs/</a>]]></description>
-			<LookAt>
-				<longitude>-122.057307462891</longitude>
-				<latitude>37.65624800748437</latitude>
-				<altitude>5.972596479577321</altitude>
-				<heading>-69.21235100219899</heading>
-				<tilt>32.36561844689648</tilt>
-				<range>342.5662955402736</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars50</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.057307462891,37.65624800748437,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="StudentAdmin">
-			<name>Student Services &amp; Administration [SA]</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/ua/communications/files/images/photogallery/large/L-06-SSA.jpg"/>Student Services & Administration [SA]]]></description>
+		<Folder id="ParkingPermits">
+			<name>Parking Permit Dispensers</name>
+			<Placemark id="dispenser_Harder">
+				<name>Daily/Hourly Permit Dispensers - Harder Rd</name>
+				<description>Daily/Hourly Permit Dispensers - Harder Rd</description>
+				<LookAt>
+					<longitude>-122.0553158333019</longitude>
+					<latitude>37.65237678504452</latitude>
+					<altitude>0</altitude>
+					<heading>10.35874672072491</heading>
+					<tilt>60.00253220965531</tilt>
+					<range>79.75694628795176</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_track0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0553000736053,37.6523232678178,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="dispenser_LotG">
+				<name>Daily/Hourly Permit Dispensers - Lot G</name>
+				<description>Daily/Hourly Permit Dispensers - Lot G</description>
+				<LookAt>
+					<longitude>-122.0531390969218</longitude>
+					<latitude>37.65842133170965</latitude>
+					<altitude>0</altitude>
+					<heading>-0.7945854727071995</heading>
+					<tilt>4.903018221347986</tilt>
+					<range>140.6936025578632</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_track0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0531852565083,37.65829499597651,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="dispenser_LotK">
+				<name>Daily/Hourly Permit Dispensers - Lot K</name>
+				<description>Daily/Hourly Permit Dispensers  - Lot K</description>
+				<LookAt>
+					<longitude>-122.0563175893934</longitude>
+					<latitude>37.65940888462716</latitude>
+					<altitude>0</altitude>
+					<heading>170.9012476552781</heading>
+					<tilt>39.17565044490011</tilt>
+					<range>103.7934392999871</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_track0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0566372720839,37.65941401841413,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="dispenser_LotN">
+				<name>Daily/Hourly Permit Dispensers - Lot N</name>
+				<description>Daily/Hourly Permit Dispensers - Lot N</description>
+				<LookAt>
+					<longitude>-122.061714768861</longitude>
+					<latitude>37.65884204153196</latitude>
+					<altitude>0</altitude>
+					<heading>40.46589456865788</heading>
+					<tilt>57.48092381755876</tilt>
+					<range>313.4530637820645</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_track0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0623618785044,37.6578930293178,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Performance Spaces</name>
+			<Placemark id="AgoraStage">
+				<name>Agora Stage [AG]</name>
+				<description><![CDATA[Agora Stage [AG]
+<img style="max-width:500px;" src="file:///C:/Users/az4882/Pictures/clouds-daylight-forest-592077.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0550646878794</longitude>
+					<latitude>37.65500661102288</latitude>
+					<altitude>0</altitude>
+					<heading>-69.21097772517602</heading>
+					<tilt>53.74414964785374</tilt>
+					<range>231.558887506517</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars02</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0550646878794,37.65500661102288,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Amphitheatre">
+				<name>Pioneer Amphitheatre [PA]</name>
+				<description>Pioneer Amphitheatre [PA]</description>
+				<LookAt>
+					<longitude>-122.0568079890539</longitude>
+					<latitude>37.65893152128505</latitude>
+					<altitude>0</altitude>
+					<heading>-69.21204576015704</heading>
+					<tilt>32.36568031647011</tilt>
+					<range>355.4331634155641</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars01</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0568079890539,37.65893152128505,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="UniversityTheatre">
+				<name>University Theatre [TH]</name>
+				<description>University Theatre [TH]</description>
+				<LookAt>
+					<longitude>-122.0578095329616</longitude>
+					<latitude>37.65936392890788</latitude>
+					<altitude>11.92891991141077</altitude>
+					<heading>-69.21265766669737</heading>
+					<tilt>32.36557918648308</tilt>
+					<range>334.401444386383</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars01</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0578095329616,37.65936392890788,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder id="Housing">
+			<name>Pioneer Heights</name>
+			<open>1</open>
+			<Placemark id="Calaveras">
+				<name>Calaveras</name>
+				<description>Calaveras</description>
+				<LookAt>
+					<longitude>-122.0523683129738</longitude>
+					<latitude>37.65311912166941</latitude>
+					<altitude>11.22903267399664</altitude>
+					<heading>-44.85312755481634</heading>
+					<tilt>37.0486830084584</tilt>
+					<range>413.1439141754437</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0523683129738,37.65311912166941,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Coloma">
+				<name>Coloma</name>
+				<description>Coloma</description>
+				<LookAt>
+					<longitude>-122.0520674425436</longitude>
+					<latitude>37.65347542708043</latitude>
+					<altitude>11.24185211194456</altitude>
+					<heading>-44.85294376497522</heading>
+					<tilt>37.048679987396</tilt>
+					<range>412.5856905382924</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0520674425436,37.65347542708043,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Diablo">
+				<name>Diablo</name>
+				<description>Diablo</description>
+				<LookAt>
+					<longitude>-122.0527487048703</longitude>
+					<latitude>37.65345639762059</latitude>
+					<altitude>12.2076236620287</altitude>
+					<heading>-44.85335998416257</heading>
+					<tilt>37.04963562069274</tilt>
+					<range>412.652756128875</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0527487048703,37.65345639762059,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ElDorado">
+				<name>El Dorado</name>
+				<description>El Dorado</description>
+				<LookAt>
+					<longitude>-122.0519417776701</longitude>
+					<latitude>37.65267291340965</latitude>
+					<altitude>5.673177155947522</altitude>
+					<heading>-44.85286700932448</heading>
+					<tilt>37.04870976632736</tilt>
+					<range>418.0878034762743</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0519417776701,37.65267291340965,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Juniper">
+				<name>Juniper</name>
+				<description>Juniper</description>
+				<LookAt>
+					<longitude>-122.0527908443473</longitude>
+					<latitude>37.6529065378746</latitude>
+					<altitude>12.58486441682651</altitude>
+					<heading>-44.85338571514561</heading>
+					<tilt>37.04963848944369</tilt>
+					<range>413.1828096376092</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0527908443473,37.6529065378746,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="HousingOffices">
+				<name>Lassen Hall Housing Offices [LH]</name>
+				<description>Lassen Hall Housing Offices [LH]</description>
+				<LookAt>
+					<longitude>-122.0531109967387</longitude>
+					<latitude>37.65363292246943</latitude>
+					<altitude>5.795422743998646</altitude>
+					<heading>-44.8535812821204</heading>
+					<tilt>37.04968896020453</tilt>
+					<range>422.5078521437483</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2006</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0531109967387,37.65363292246943,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Mariposa">
+				<name>Mariposa</name>
+				<description>Mariposa</description>
+				<LookAt>
+					<longitude>-122.0509965471105</longitude>
+					<latitude>37.65221554663668</latitude>
+					<altitude>8.332305381883803</altitude>
+					<heading>-44.85228961443193</heading>
+					<tilt>37.04866687334374</tilt>
+					<range>410.1626561322319</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0509965471105,37.65221554663668,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="PioneerHeights">
+				<name>Pioneer Heights Student Housing [PH]</name>
+				<description>Pioneer Heights Student Housing [PH]</description>
+				<LookAt>
+					<longitude>-122.0533662054937</longitude>
+					<latitude>37.65379834017274</latitude>
+					<altitude>0</altitude>
+					<heading>-44.85373718632285</heading>
+					<tilt>37.04972871900841</tilt>
+					<range>429.8537133960933</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0533662054937,37.65379834017274,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Sequoia">
+				<name>Sequoia</name>
+				<description>Sequoia</description>
+				<LookAt>
+					<longitude>-122.0534848710822</longitude>
+					<latitude>37.65332751658072</latitude>
+					<altitude>11.87663220030565</altitude>
+					<heading>-44.8538096739248</heading>
+					<tilt>37.04964878966613</tilt>
+					<range>415.0859000490813</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0534848710822,37.65332751658072,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Shasta">
+				<name>Shasta</name>
+				<description>Shasta</description>
+				<LookAt>
+					<longitude>-122.0525008259149</longitude>
+					<latitude>37.65397380333103</latitude>
+					<altitude>12.23906267712003</altitude>
+					<heading>-44.8532085574993</heading>
+					<tilt>37.04962683422463</tilt>
+					<range>411.0293407642342</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars21</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0525008259149,37.65397380333103,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Sierra">
+				<name>Sierra</name>
+				<description>Sierra</description>
+				<LookAt>
+					<longitude>-122.0517543720252</longitude>
+					<latitude>37.65288362057181</latitude>
+					<altitude>10.45293449589144</altitude>
+					<heading>-44.85275252467658</heading>
+					<tilt>37.04867647520221</tilt>
+					<range>411.9367830919266</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0517543720252,37.65288362057181,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Sonora">
+				<name>Sonora</name>
+				<description>Sonora</description>
+				<LookAt>
+					<longitude>-122.0515234904974</longitude>
+					<latitude>37.65237336216384</latitude>
+					<altitude>10.4245851323798</altitude>
+					<heading>-44.85261149810881</heading>
+					<tilt>37.04866453094701</tilt>
+					<range>409.7298804362809</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0515234904974,37.65237336216384,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="Tamalpais">
+				<name>Tamalpais</name>
+				<description>Tamalpais</description>
+				<LookAt>
+					<longitude>-122.0531312153545</longitude>
+					<latitude>37.65402636044977</latitude>
+					<altitude>12.138745938252</altitude>
+					<heading>-44.85359364693114</heading>
+					<tilt>37.04868074999297</tilt>
+					<range>412.7266108944452</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars2003</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0531312153545,37.65402636044977,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<LookAt>
+			<longitude>-122.0544345068792</longitude>
+			<latitude>37.65759378078418</latitude>
+			<altitude>18.22378038053643</altitude>
+			<heading>-69.21059271154199</heading>
+			<tilt>53.74383156700537</tilt>
+			<range>187.6471232034323</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<styleUrl>#msn_red-stars010</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>-122.0544345068792,37.65759378078418,0</coordinates>
+		</Point>
+		<Folder>
+			<name>Sustainability</name>
 			<Placemark>
-				<name>Student Administations Office</name>
+				<name>Bike Racks</name>
+				<description>Bike Racks at Meiklejohn Hall</description>
+				<LookAt>
+					<longitude>-122.0549018724491</longitude>
+					<latitude>37.65397168850235</latitude>
+					<altitude>0</altitude>
+					<heading>173.069231196644</heading>
+					<tilt>61.71917974215568</tilt>
+					<range>87.97771366761462</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.055008340698,37.65390288948844,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Diversity and Inclusion Student Center</name>
+				<description>Diversity and Inclusion Student Center</description>
+				<LookAt>
+					<longitude>-122.0553220404478</longitude>
+					<latitude>37.65426055743884</latitude>
+					<altitude>5.784732451848782</altitude>
+					<heading>-110.3972448311076</heading>
+					<tilt>64.90557182565127</tilt>
+					<range>146.3058522673807</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0552486230675,37.6544268628726,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Drought Tolerant Landscape</name>
+				<description>Drought Tolerant Landscape</description>
+				<LookAt>
+					<longitude>-122.0548846491171</longitude>
+					<latitude>37.65319583872947</latitude>
+					<altitude>0</altitude>
+					<heading>-25.96739898458734</heading>
+					<tilt>48.41183668191552</tilt>
+					<range>133.1433543290954</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0548919376519,37.65316813110975,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Electric Car Charging Stations</name>
+				<description>Electric Car Charging Stations</description>
+				<LookAt>
+					<longitude>-122.05326319248</longitude>
+					<latitude>37.65834795579877</latitude>
+					<altitude>0</altitude>
+					<heading>12.94297763014996</heading>
+					<tilt>11.41604614995737</tilt>
+					<range>233.4827798494338</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0532136651778,37.65826449793007,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="hydration1">
+				<name>Hydration Station (PE)</name>
+				<description>Hydration Station near PE Building</description>
+				<Camera>
+					<longitude>-122.0581248858498</longitude>
+					<latitude>37.65722179533959</latitude>
+					<altitude>136.2857598695083</altitude>
+					<heading>60.11619643489017</heading>
+					<tilt>40.72983675424384</tilt>
+					<roll>2.066961219322371</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#m_ylw-pushpin00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0573591109558,37.6576525846837,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="hydration2">
+				<name>Hydration Station (UU Old)</name>
+				<description>Hydration Station near Old University Union</description>
+				<LookAt>
+					<longitude>-122.0555693746197</longitude>
+					<latitude>37.6550206918817</latitude>
+					<altitude>0</altitude>
+					<heading>-80.66171494790105</heading>
+					<tilt>54.74426851972756</tilt>
+					<range>118.9679090367179</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0554970316316,37.65487241447892,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="hydration3">
+				<name>Hydration Station (LI)</name>
+				<description>Hydration Station near University Library</description>
+				<LookAt>
+					<longitude>-122.0559848310167</longitude>
+					<latitude>37.65628635440289</latitude>
+					<altitude>6.463417189874169</altitude>
+					<heading>-132.699218060731</heading>
+					<tilt>61.97316524598098</tilt>
+					<range>139.0352624207527</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0559594832423,37.65635030166699,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Office of Sustainability</name>
+				<description>Office of Sustainability</description>
+				<LookAt>
+					<longitude>-122.0545844935405</longitude>
+					<latitude>37.65707313352297</latitude>
+					<altitude>0</altitude>
+					<heading>-63.22581596372373</heading>
+					<tilt>57.81497614304031</tilt>
+					<range>335.2242265240997</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0542601450054,37.65757159446706,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zagster Bike Share</name>
+				<description>Zagster Bike Share</description>
+				<LookAt>
+					<longitude>-122.0542888212452</longitude>
+					<latitude>37.654288561634</latitude>
+					<altitude>0</altitude>
+					<heading>26.1575231266794</heading>
+					<tilt>60.00255380438055</tilt>
+					<range>98.30679577691467</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0542268546436,37.65415470415565,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="zipcar2">
+				<name>Zipcar (Pioneer Heights)</name>
+				<description>Zipcar at Pioneer Heights</description>
+				<LookAt>
+					<longitude>-122.0518130092813</longitude>
+					<latitude>37.65231589440788</latitude>
+					<altitude>0</altitude>
+					<heading>26.16066637171842</heading>
+					<tilt>39.73955272896357</tilt>
+					<range>173.5122444628347</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0521889212779,37.65256043316826,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="zipcar1">
+				<name>Zipcar (Lot D)</name>
+				<description>Zipcar in Parking Lot D</description>
+				<LookAt>
+					<longitude>-122.053195143249</longitude>
+					<latitude>37.65481145195422</latitude>
+					<altitude>0</altitude>
+					<heading>-75.52118005967481</heading>
+					<tilt>60.00250731770935</tilt>
+					<range>92.84099521555856</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#m_ylw-pushpin20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0530411303131,37.65466504218892,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Transportation</name>
+			<Placemark id="BusStopLI">
+				<name>AC Bus Stop (Rte. 60 - LI)</name>
+				<description>AC Bus Stop (Rte. 60 - LI)</description>
+				<LookAt>
+					<longitude>-122.0573359450863</longitude>
+					<latitude>37.65578021528643</latitude>
+					<altitude>0</altitude>
+					<heading>48.70084216968573</heading>
+					<tilt>0</tilt>
+					<range>212.4769423582092</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_bus</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0573556437411,37.65588590420378,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="BusStopRAW">
+				<name>AC Bus Stop (Rte. 60 - RAW)</name>
+				<description>AC Bus Stop (Rte. 60 - RAW)</description>
+				<LookAt>
+					<longitude>-122.0537339085142</longitude>
+					<latitude>37.65377857799502</latitude>
+					<altitude>0</altitude>
+					<heading>18.07647567960676</heading>
+					<tilt>0</tilt>
+					<range>178.4480845221601</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_bus00</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0534535435509,37.65409808995238,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="BusStopSA">
+				<name>AC Bus Stop (Rte. 60 - SA)</name>
+				<description>AC Bus Stop (Rte. 60 - SA)</description>
+				<LookAt>
+					<longitude>-122.0536212873659</longitude>
+					<latitude>37.65818624453827</latitude>
+					<altitude>0</altitude>
+					<heading>-36.48094989262132</heading>
+					<tilt>60.0042252281229</tilt>
+					<range>175.9261905989773</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_bus01</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0536269959108,37.65780299433372,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="ShuttleRAW">
+				<name>CSUEB Shuttle to BART - (RAW)</name>
+				<description>CSUEB Shuttle to BART - (RAW)</description>
+				<LookAt>
+					<longitude>-122.053758717402</longitude>
+					<latitude>37.65384529611243</latitude>
+					<altitude>0</altitude>
+					<heading>10.35971817343759</heading>
+					<tilt>0</tilt>
+					<range>244.5542894732116</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_bus0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0535054597533,37.65403374262063,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>University Facilities</name>
+			<Placemark id="Accessibility Services">
+				<name>Accessibility Services [AS]</name>
+				<description>Accessibility Services [AS]</description>
+				<LookAt>
+					<longitude>-122.0560647351907</longitude>
+					<latitude>37.65593844660093</latitude>
+					<altitude>9.165364566460356</altitude>
+					<heading>-119.608909376399</heading>
+					<tilt>50.15337199023114</tilt>
+					<range>212.0827881051683</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0557204605966,37.65585387084345,0</coordinates>
+				</Point>
+			</Placemark>
+			<Folder>
+				<name>"Maintenance Facilities"</name>
+				<Placemark id="BoilerPlant">
+					<name>Boiler Plant/Storage [BP]</name>
+					<open>1</open>
+					<description>Boiler Plant/Storage [BP]</description>
+					<LookAt>
+						<longitude>-122.0535485032444</longitude>
+						<latitude>37.65580312241585</latitude>
+						<altitude>0</altitude>
+						<heading>175.2435696585062</heading>
+						<tilt>43.30664806602975</tilt>
+						<range>191.7241715476486</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-stars2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-122.0533303580219,37.65583200016413,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="facilities">
+					<name>Facilities Maintenance [FM]</name>
+					<description>Facilities Maintenance [FM]</description>
+					<LookAt>
+						<longitude>-122.0538226312747</longitude>
+						<latitude>37.65563048416765</latitude>
+						<altitude>0</altitude>
+						<heading>175.2434021926972</heading>
+						<tilt>43.30715763199477</tilt>
+						<range>190.7393769534326</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-stars2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-122.0536487134946,37.65572712405947,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="Receiving">
+					<name>Corporation Yard/Receiving [CY]</name>
+					<description>Corporation Yard/Receiving [CY]</description>
+					<LookAt>
+						<longitude>-122.05348426439</longitude>
+						<latitude>37.65536162651804</latitude>
+						<altitude>4.592521784087588</altitude>
+						<heading>-47.50643452818317</heading>
+						<tilt>36.7761734961703</tilt>
+						<range>419.5164444138178</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-stars021</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-122.05348426439,37.65536162651804,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Placemark id="Bookstore">
+				<name>Pioneer Bookstore [BK]</name>
+				<description>Pioneer Bookstore [BK]</description>
+				<LookAt>
+					<longitude>-122.0561799899309</longitude>
+					<latitude>37.65515520548671</latitude>
+					<altitude>12.16109014252959</altitude>
+					<heading>-69.21166192575957</heading>
+					<tilt>32.36937046937606</tilt>
+					<range>339.1373005366044</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars5</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0561799899309,37.65515520548671,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="RecAndWellness">
+				<name>Recreation and Wellness Center [RAW]</name>
+				<description>Recreation and Wellness Center [RAW]</description>
+				<Camera>
+					<longitude>-122.0540479068664</longitude>
+					<latitude>37.65428735091399</latitude>
+					<altitude>114.8616504245085</altitude>
+					<heading>53.05652063919997</heading>
+					<tilt>24.72001518291727</tilt>
+					<roll>2.445978071351624</roll>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</Camera>
+				<styleUrl>#msn_red-stars020</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0536191032486,37.65454264767755,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Recreation and Wellness Center</name>
+				<description>This is the Recreation and Wellness Ceneter. Students come here to meet their daily workout goals.</description>
 				<styleUrl>#msn_ylw-pushpin3</styleUrl>
 				<Polygon>
 					<extrude>1</extrude>
@@ -7487,106 +7435,162 @@
 					<outerBoundaryIs>
 						<LinearRing>
 							<coordinates>
-							-122.0545768614444,37.65719224768772,44 -122.0537039707499,37.65779829701839,44 -122.0538859417615,37.65796186687282,44 -122.0539456453723,37.65792106491709,44 -122.0540220329373,37.6579932357353,44 -122.0548351983112,37.65742882547821,44 -122.0545844996046,37.65720610182923,44 -122.0545768614444,37.65719224768772,44 
+							-122.053651025154,37.65408001345234,25 -122.0534452097647,37.65423905226412,25 -122.0532353868192,37.65445643869272,25 -122.0533257965566,37.65467207037855,25 -122.0534242609871,37.65490573983004,25 -122.0537426766186,37.65483752294153,25 -122.054043345953,37.65470870892801,25 -122.0539550574738,37.65450775043507,25 -122.0538729575635,37.65435462514784,25 -122.0538088771624,37.65435999105667,25 -122.0536594811842,37.65407462756014,25 -122.053651025154,37.65408001345234,25 
 							</coordinates>
 						</LinearRing>
 					</outerBoundaryIs>
 				</Polygon>
 			</Placemark>
-			<Placemark id="library">
-				<name>University Library [LI]</name>
-				<description>University Library [LI]</description>
+			<Placemark id="SF">
+				<name>Student &amp; Faculty Support Bldg. [SF]</name>
+				<description>Student &amp; Faculty Support Bldg. [SF]</description>
 				<LookAt>
-					<longitude>-122.056741591404</longitude>
-					<latitude>37.65568331360587</latitude>
-					<altitude>13.5146559814234</altitude>
-					<heading>-69.21200529050235</heading>
-					<tilt>32.36634315773301</tilt>
-					<range>336.5741551113236</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_red-stars5</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.056741591404,37.65568331360587,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="UPD">
-				<name>University Police [UPD]</name>
-				<description>University Police [UPD]</description>
-				<LookAt>
-					<gx:ViewerOptions>
-						<gx:option enabled="0" name="historicalimagery"></gx:option>
-						<gx:option enabled="0" name="sunlight"></gx:option>
-						<gx:option name="streetview"></gx:option>
-					</gx:ViewerOptions>
-					<longitude>-122.0387254146374</longitude>
-					<latitude>37.66920933601508</latitude>
+					<longitude>-122.054621049398</longitude>
+					<latitude>37.65798575958967</latitude>
 					<altitude>0</altitude>
-					<heading>46.54930797030342</heading>
-					<tilt>86.14529176963949</tilt>
-					<range>2220.186173637334</range>
+					<heading>-69.21070964602747</heading>
+					<tilt>32.36562134104918</tilt>
+					<range>343.1682134823253</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_red-stars23</styleUrl>
+				<styleUrl>#msn_red-stars01</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0567931644101,37.65561326638255,148.839570544291</coordinates>
+					<coordinates>-122.054621049398,37.65798575958966,0</coordinates>
 				</Point>
 			</Placemark>
-			<Placemark id="NewUnion">
-				<name>University Union New [UU New]</name>
-				<description>University Union New [UU New]</description>
+			<Placemark id="HealthCenter">
+				<name>Student Health Center [HC]</name>
+				<description><![CDATA[Student Health Center [HC]  <a href="http://www.csueastbay.edu/shcs/">http://www.csueastbay.edu/shcs/</a>]]></description>
 				<LookAt>
-					<longitude>-122.0556603235735</longitude>
-					<latitude>37.65450229608096</latitude>
-					<altitude>8.184152771251631</altitude>
-					<heading>0.000358272908133075</heading>
-					<tilt>48.31567249024924</tilt>
-					<range>184.3002439578044</range>
+					<longitude>-122.057307462891</longitude>
+					<latitude>37.65624800748437</latitude>
+					<altitude>5.972596479577321</altitude>
+					<heading>-69.21235100219899</heading>
+					<tilt>32.36561844689648</tilt>
+					<range>342.5662955402736</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_red-stars020</styleUrl>
+				<styleUrl>#msn_red-stars50</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0556603235735,37.65450229608096,0</coordinates>
+					<coordinates>-122.057307462891,37.65624800748437,0</coordinates>
 				</Point>
 			</Placemark>
-			<Placemark id="OldUnion">
-				<name>University Union Old [UU]</name>
-				<description>University Union Old [UU]</description>
-				<LookAt>
-					<longitude>-122.0559072986533</longitude>
-					<latitude>37.65481776678965</latitude>
-					<altitude>8.232846217340146</altitude>
-					<heading>-69.21268187311934</heading>
-					<tilt>23.87313961672706</tilt>
-					<range>320.7620576470449</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_red-stars12</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0559072986533,37.65481776678965,0</coordinates>
-				</Point>
+			<Placemark id="StudentAdmin">
+				<name>Student Services &amp; Administration [SA]</name>
+				<description><![CDATA[<img src="http://www.csueastbay.edu/ua/communications/files/images/photogallery/large/L-06-SSA.jpg"/>Student Services & Administration [SA]]]></description>
+				<Placemark>
+					<name>Student Administations Office</name>
+					<styleUrl>#msn_ylw-pushpin3</styleUrl>
+					<Polygon>
+						<extrude>1</extrude>
+						<tessellate>1</tessellate>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+							-122.0545768614444,37.65719224768772,44 -122.0537039707499,37.65779829701839,44 -122.0538859417615,37.65796186687282,44 -122.0539456453723,37.65792106491709,44 -122.0540220329373,37.6579932357353,44 -122.0548351983112,37.65742882547821,44 -122.0545844996046,37.65720610182923,44 -122.0545768614444,37.65719224768772,44 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
 			</Placemark>
-			<Placemark>
-				<name>The Welcome Center [WC]</name>
-				<description>The Welcome Center [WC]</description>
-				<LookAt>
-					<longitude>-122.0545490667961</longitude>
-					<latitude>37.65806443597016</latitude>
-					<altitude>0</altitude>
-					<heading>30.44112094950364</heading>
-					<tilt>31.73705394660052</tilt>
-					<range>109.9944489173174</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_red-stars</styleUrl>
-				<Point>
-					<coordinates>-122.054597836073,37.65791554396371,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
-	</Document>
-</kml>
+				<Placemark id="library">
+					<name>University Library [LI]</name>
+					<description>University Library [LI]</description>
+					<LookAt>
+						<longitude>-122.056741591404</longitude>
+						<latitude>37.65568331360587</latitude>
+						<altitude>13.5146559814234</altitude>
+						<heading>-69.21200529050235</heading>
+						<tilt>32.36634315773301</tilt>
+						<range>336.5741551113236</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-stars5</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-122.056741591404,37.65568331360587,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="UPD">
+					<name>University Police [UPD]</name>
+					<description>University Police [UPD]</description>
+					<LookAt>
+						<gx:ViewerOptions>
+							<gx:option enabled="0" name="historicalimagery"></gx:option>
+							<gx:option enabled="0" name="sunlight"></gx:option>
+							<gx:option name="streetview"></gx:option>
+						</gx:ViewerOptions>
+						<longitude>-122.0387254146374</longitude>
+						<latitude>37.66920933601508</latitude>
+						<altitude>0</altitude>
+						<heading>46.54930797030342</heading>
+						<tilt>86.14529176963949</tilt>
+						<range>2220.186173637334</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-stars23</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-122.0567931644101,37.65561326638255,148.839570544291</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="NewUnion">
+					<name>University Union New [UU New]</name>
+					<description>University Union New [UU New]</description>
+					<LookAt>
+						<longitude>-122.0556603235735</longitude>
+						<latitude>37.65450229608096</latitude>
+						<altitude>8.184152771251631</altitude>
+						<heading>0.000358272908133075</heading>
+						<tilt>48.31567249024924</tilt>
+						<range>184.3002439578044</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-stars020</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-122.0556603235735,37.65450229608096,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark id="OldUnion">
+					<name>University Union Old [UU]</name>
+					<description>University Union Old [UU]</description>
+					<LookAt>
+						<longitude>-122.0559072986533</longitude>
+						<latitude>37.65481776678965</latitude>
+						<altitude>8.232846217340146</altitude>
+						<heading>-69.21268187311934</heading>
+						<tilt>23.87313961672706</tilt>
+						<range>320.7620576470449</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-stars12</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-122.0559072986533,37.65481776678965,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>The Welcome Center [WC]</name>
+					<description>The Welcome Center [WC]</description>
+					<LookAt>
+						<longitude>-122.0545490667961</longitude>
+						<latitude>37.65806443597016</latitude>
+						<altitude>0</altitude>
+						<heading>30.44112094950364</heading>
+						<tilt>31.73705394660052</tilt>
+						<range>109.9944489173174</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_red-stars</styleUrl>
+					<Point>
+						<coordinates>-122.054597836073,37.65791554396371,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Document>
+	</kml>
