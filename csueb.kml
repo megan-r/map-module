@@ -17,42 +17,222 @@
 			<gx:drawOrder>1</gx:drawOrder>
 			<coordinates>-122.0544345068792,37.65759378078418,0</coordinates>
 		</Point>
-	<Style id="sh_red-stars206">
+	<Style id="sh_phone1001">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_parking_lot5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl001">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7f55aa</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_dining6">
+	<Style id="sn_dining2">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_info">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars220</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars7">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_phone9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_track0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+			</Icon>
+			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars0000">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_parking_lot0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars2">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-stars217">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_phone30">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_parking_lot1">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars002">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-stars210">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_bus1">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.590909</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
 			</Icon>
@@ -69,66 +249,99 @@
 			<styleUrl>#sh_ylw-pushpin8</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_phone00">
+	<StyleMap id="msn_parking_lot">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_phone20</styleUrl>
+			<styleUrl>#sn_parking_lot5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_phone1000</styleUrl>
+			<styleUrl>#sh_parking_lot3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-stars2006">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars210</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars203</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_bus1">
+	<Style id="sn_wheel_chair_accessible1">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin20">
+	<StyleMap id="msn_red-stars02">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+			<styleUrl>#sn_red-stars11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin41</styleUrl>
+			<styleUrl>#sh_red-stars230</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible0">
+	<Style id="sh_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f55aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f55aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin8</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible1</styleUrl>
+			<styleUrl>#sh_ylw-pushpin7</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_ylw-pushpin3">
+	<StyleMap id="msn_red-stars200">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+			<styleUrl>#sn_red-stars21</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin9</styleUrl>
+			<styleUrl>#sh_red-stars207</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_toilets0">
+		<IconStyle>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_dining3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_phone5">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl000">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -139,251 +352,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_toilets0">
-		<IconStyle>
-			<scale>0.583333</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars218">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone1002">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_dining4">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars001">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars001</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-stars20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_track">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars216">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_parking_lot">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f5500</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5500</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_dining1">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin6">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f5500</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5500</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_phone00">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_parking_lot10">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars212">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="failed0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#failed</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#failed1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_wheel_chair_accessible">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_bus00">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_dining1">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_track">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_track</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_track</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_wheel_chair_accessible11">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_track0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_track0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_track0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_phone1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_red-stars1100">
+	<Style id="sh_red-stars203">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -397,27 +366,17 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin10">
+	<StyleMap id="msn_red-stars22">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin11</styleUrl>
+			<styleUrl>#sn_red-stars4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin3</styleUrl>
+			<styleUrl>#sh_red-stars0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_dining">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_phone0">
+	<Style id="sn_phone10">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -426,78 +385,18 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_parking_lot10">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_wheel_chair_accessible4">
+	<StyleMap id="msn_red-stars12">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible10</styleUrl>
+			<styleUrl>#sn_red-stars6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible11</styleUrl>
+			<styleUrl>#sh_red-stars3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_wheel_chair_accessible10">
+	<Style id="sh_phone7">
 		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_parking_lot4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_red-stars211">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_phone1000">
-		<IconStyle>
-			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
@@ -520,19 +419,8 @@
 			<color>b37f5555</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_phone4">
+	<Style id="sn_phone40">
 		<IconStyle>
-			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
@@ -540,155 +428,8 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_dining5">
+	<Style id="sn_phone60">
 		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_red-stars000">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-stars6">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-stars021">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars23</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_red-stars220">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-stars00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_phone300">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-stars23">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars50</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars30</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_bus0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars217">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_dining6">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_phone200">
-		<IconStyle>
-			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
@@ -696,12 +437,89 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_wheel_chair_accessible2">
+	<StyleMap id="msn_bus01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars2">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-stars50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars208">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible00">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_phone400">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -720,27 +538,46 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_track0">
+	<Style id="sh_red-stars207">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_parking_lot3">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
 			</Icon>
-			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_phone8">
+	<StyleMap id="msn_phone10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wheel_chair_accessible10">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_phone00">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -749,7 +586,196 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_red-stars11">
+	<Style id="sn_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_dining4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_phone">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f55aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f55aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_red-stars100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars22</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars0000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_phone9">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining4">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars200">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f55aa</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_phone4">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars2008">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars215</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars205</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_phone0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars215">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars21500</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars2001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars2130</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars206</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars0">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -763,7 +789,27 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_phone7">
+	<StyleMap id="msn_wheel_chair_accessible1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_track">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_phone0">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -772,50 +818,103 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_dining00">
+	<Style id="sh_phone9">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible4">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone80</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars21">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_track0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_track0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_track0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars22">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_phone6">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_bus0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_parking_lot1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_dining5">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_wheel_chair_accessible10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_phone60">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars21">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars20</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars21</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_phone6">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -835,219 +934,7 @@
 			<color>b37f55aa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_phone">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_red-stars30">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-stars21500">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f5500</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5500</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_red-stars11">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_phone40">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone60</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_red-stars110">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin9">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f55aa</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f55aa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_red-stars">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_phone70">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone100">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_red-stars00">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-stars01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars0010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars110</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_toilets1">
-		<IconStyle>
-			<scale>0.583333</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_phone10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin10">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_phone">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_dining2">
+	<Style id="sn_dining1">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -1057,41 +944,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_phone11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_red-stars204">
+	<Style id="sn_phone7">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f5500</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5500</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_red-stars208">
+	<Style id="sn_red-stars30">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1104,264 +966,6 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_parking_lot2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_dining2">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin8">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f5555</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5555</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sn_parking_lot4">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars0">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_phone0">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_info0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl10">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars50">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars22</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_phone6">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_phone6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_phone7">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone4">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible00">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_dining4">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars2004">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars212</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars204</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_dining4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_dining4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_dining4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_red-stars214">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_track">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
-			</Icon>
-			<hotSpot x="32" y="32" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_phone40">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_red-stars100">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_dining0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_dining1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_dining0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_parking_lot3">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<StyleMap id="msn_dining">
 		<Pair>
@@ -1373,62 +977,46 @@
 			<styleUrl>#sh_dining</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin3">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f55aa</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f55aa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_red-stars2000">
+	<StyleMap id="msn_track">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-stars214</styleUrl>
+			<styleUrl>#sn_track</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-stars202</styleUrl>
+			<styleUrl>#sh_track</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_dining0">
+	<Style id="sh_phone100">
 		<IconStyle>
-			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin9">
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone4">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+			<styleUrl>#sn_phone4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+			<styleUrl>#sh_phone2</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_bus2">
+	<Style id="sh_bus">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -1438,7 +1026,17 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin11">
+	<StyleMap id="msn_red-stars2150">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars2150</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin6">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1447,23 +1045,33 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>b37f55aa</color>
+			<color>b37f5500</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>b37f55aa</color>
+			<color>b37f5500</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin2">
+	<StyleMap id="msn_red-stars0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin4</styleUrl>
+			<styleUrl>#sn_red-stars0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl001</styleUrl>
+			<styleUrl>#sh_red-stars1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_red-stars202">
+	<StyleMap id="msn_red-stars2007">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars216</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars201</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars216">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1472,16 +1080,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_red-stars2150">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars22">
+	<Style id="sh_red-stars100">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1504,40 +1103,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_red-stars7">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_phone9">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone3">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars002">
+	<Style id="sn_red-stars000">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1551,93 +1117,30 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin5">
+	<StyleMap id="msn_ylw-pushpin3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+			<styleUrl>#sh_ylw-pushpin9</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_red-stars001">
+	<Style id="sn_ylw-pushpin3">
 		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_phone20">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_phone400">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone40</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_phone02">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone201</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone100</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin9">
-		<IconStyle>
-			<scale>1.3</scale>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>b37f5500</color>
+			<color>b37f55aa</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>b37f5500</color>
+			<color>b37f55aa</color>
 		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_red-stars22">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_wheel_chair_accessible4">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<Style id="sn_red-stars50">
 		<IconStyle>
@@ -1653,6 +1156,280 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_parking_lot4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wheel_chair_accessible4">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_phone3">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_bus00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_phone201">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars2005">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars211</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars20</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_toilets1">
+		<IconStyle>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars1101">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_dining1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars001</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars1101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars4">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_phone1">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone400</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_info0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_parking_lot0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-stars214">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-stars2130">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_phone200">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wheel_chair_accessible">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_bus">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin10">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>807f00aa</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_bus">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_ylw-pushpin1">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1668,7 +1445,105 @@
 			<color>b37f55aa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sh_red-stars1101">
+	<Style id="sh_toilets">
+		<IconStyle>
+			<scale>0.583333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_phone200">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars120</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible1">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining4">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_info0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_bus0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars11">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1682,17 +1557,58 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_red-stars200">
+	<Style id="sn_phone4">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin10">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl001">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f55aa</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_red-stars10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-stars21</styleUrl>
+			<styleUrl>#sn_red-stars2</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-stars207</styleUrl>
+			<styleUrl>#sh_red-stars00</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_wheel_chair_accessible4">
+	<Style id="sh_parking_lot4">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible3">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -1702,17 +1618,86 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_phone20">
+	<StyleMap id="msn_phone0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone202</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone1002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_phone1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible2">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin7">
+	<Style id="sn_red-stars3">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="failed0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_parking_lot2">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -1727,27 +1712,16 @@
 			<color>b37f55aa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_wheel_chair_accessible00">
+	<Style id="sh_red-stars204">
 		<IconStyle>
-			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_phone8">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_dining5">
+	<Style id="sh_dining5">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -1757,77 +1731,38 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_wheel_chair_accessible10">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_red-stars120">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-stars2">
+	<StyleMap id="msn_red-stars010">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-stars30</styleUrl>
+			<styleUrl>#sn_red-stars002</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-stars11</styleUrl>
+			<styleUrl>#sh_red-stars1100</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_red-stars220">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_bus01">
+	<StyleMap id="msn_ylw-pushpin11">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus1</styleUrl>
+			<styleUrl>#sn_ylw-pushpin4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_bus01</styleUrl>
+			<styleUrl>#sh_ylw-pushpin6</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_track0">
+	<StyleMap id="msn_wheel_chair_accessible4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_phone8">
 		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone1001">
-		<IconStyle>
-			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
@@ -1835,17 +1770,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_phone2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone40</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_parking_lot1">
+	<Style id="sn_parking_lot5">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -1855,7 +1780,17 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_parking_lot1">
+	<Style id="sh_bus0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_parking_lot">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -1865,17 +1800,17 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_wheel_chair_accessible">
+	<StyleMap id="msn_parking_lot3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible</styleUrl>
+			<styleUrl>#sn_parking_lot3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible0</styleUrl>
+			<styleUrl>#sh_parking_lot0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_red-stars22">
+	<Style id="sh_red-stars30">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1889,32 +1824,178 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_red-stars100">
+	<Style id="sh_parking_lot5">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining2">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-stars21500">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin3">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f55aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f55aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_parking_lot0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-stars22</styleUrl>
+			<styleUrl>#sn_parking_lot10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-stars0000</styleUrl>
+			<styleUrl>#sh_parking_lot5</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_wheel_chair_accessible2">
+	<StyleMap id="msn_wheel_chair_accessible5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars110">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining6">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars206">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_parking_lot3">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin41</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars0">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible2">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone2">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -1933,597 +2014,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_bus00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_dining5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_dining3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_dining3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_dining">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin9</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_red-stars207">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars2005">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars211</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_red-stars2">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_phone202">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_parking_lot1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_parking_lot5">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin5">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f55aa</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f55aa</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_red-stars2008">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars215</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars205</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_bus">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f5500</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5500</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_wheel_chair_accessible1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_red-stars20">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_parking_lot">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_parking_lot5">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_parking_lot0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_wheel_chair_accessible0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_wheel_chair_accessible30">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_red-stars0000">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_dining3">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars2150">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars2150</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_toilets1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_parking_lot0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_phone30">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars215">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars21500</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_toilets</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin4">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7f55aa</color>
-			<width>3</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_red-stars30">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_info0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible3">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars7">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-stars205">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_wheel_chair_accessible00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible30</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ylw-pushpin2">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>807f00aa</color>
-			<width>10</width>
-		</LineStyle>
-	</Style>
-	<Style id="sn_red-stars21">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone10">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_wheel_chair_accessible3">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_red-stars201">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_phone201">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_dining6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_dining6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_dining1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_parking_lot">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f5500</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5500</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_red-stars1">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_parking_lot10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_red-stars0">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-stars2003">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars217</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars208</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_parking_lot2">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars1000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars220</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="failed">
-	</Style>
-	<Style id="sh_phone1">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_phone5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone9</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_red-stars6">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -2538,75 +2028,17 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_red-stars">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_bus01">
+	<Style id="sn_parking_lot4">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_red-stars210">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_info">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_phone8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_wheel_chair_accessible1">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars213">
+	<Style id="sn_red-stars211">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -2615,42 +2047,41 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_bus">
+	<StyleMap id="msn_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_bus0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin9</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_bus</styleUrl>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin8">
+	<Style id="sn_red-stars00">
 		<IconStyle>
-			<scale>1.1</scale>
+			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
-		<LineStyle>
-			<color>b37f5500</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5500</color>
-		</PolyStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_dining1">
+	<StyleMap id="msn_ylw-pushpin0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_dining0</styleUrl>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_dining6</styleUrl>
+			<styleUrl>#sh_ylw-pushpin4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_ylw-pushpin">
+	<Style id="sn_ylw-pushpin9">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -2659,10 +2090,10 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>b37f5500</color>
+			<color>b37f55aa</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>b37f5500</color>
+			<color>b37f55aa</color>
 		</PolyStyle>
 	</Style>
 	<Style id="sh_dining00">
@@ -2675,190 +2106,22 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_red-stars3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_dining3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_dining5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_dining5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_phone01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone200</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone1001</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin00">
+	<Style id="sn_track0">
 		<IconStyle>
-			<color>ff0000ff</color>
+			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_red-stars200">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_info0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_info0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_info0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_parking_lot2">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_toilets">
-		<IconStyle>
-			<scale>0.583333</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_bus">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_ylw-pushpin20">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7f00aa</color>
-			<width>2.2</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="msn_red-stars0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin41">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>ff7f00aa</color>
-			<width>2.2</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin6">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f55aa</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f55aa</color>
-		</PolyStyle>
-	</Style>
-	<Style id="sh_red-stars2">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sn_red-stars000">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_phone40">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -2877,73 +2140,92 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_info">
+	<StyleMap id="msn_phone5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining0">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_red-stars0010">
+	<Style id="sn_red-stars215">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
 			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
 	</Style>
-	<StyleMap id="msn_dining00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_dining00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_dining00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-stars2002">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars218</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin7">
+	<Style id="sn_red-stars218">
 		<IconStyle>
-			<scale>1.3</scale>
+			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
 			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-		<LineStyle>
-			<color>b37f5500</color>
-		</LineStyle>
-		<PolyStyle>
-			<color>b37f5500</color>
-		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_red-stars010">
+	<Style id="sn_parking_lot1">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_dining6">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_red-stars002</styleUrl>
+			<styleUrl>#sn_wheel_chair_accessible4</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_red-stars1100</styleUrl>
+			<styleUrl>#sh_wheel_chair_accessible00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone200</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_ylw-pushpin2">
@@ -2961,29 +2243,47 @@
 			<color>b37f55aa</color>
 		</PolyStyle>
 	</Style>
-	<Style id="failed1">
+	<StyleMap id="msn_phone20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_dining1">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
 	</Style>
-	<StyleMap id="msn_red-stars12">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars3</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_parking_lot3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_parking_lot3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_parking_lot0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin10">
+	<Style id="sh_ylw-pushpin9">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -2992,162 +2292,51 @@
 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LineStyle>
-			<color>807f00aa</color>
-			<width>10</width>
-		</LineStyle>
-	</Style>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars011">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars001</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars1101</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_phone0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone202</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone1002</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_red-stars203">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-stars5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars220</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-stars2007">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars216</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars201</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_red-stars20">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin11</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_red-stars2130">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_phone30">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone80</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone20</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin11">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>b37f55aa</color>
+			<color>b37f5500</color>
 		</LineStyle>
 		<PolyStyle>
-			<color>b37f55aa</color>
+			<color>b37f5500</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_bus0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_red-stars215">
+	<Style id="sh_red-stars23">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_phone4">
+	<StyleMap id="msn_red-stars3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_phone4</styleUrl>
+			<styleUrl>#sn_red-stars3</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_phone2</styleUrl>
+			<styleUrl>#sh_red-stars7</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_phone5">
+	<Style id="sn_red-stars1">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_phone1">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -3156,7 +2345,131 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_red-stars1">
+	<Style id="sn_track">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/track.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin20">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00aa</color>
+			<width>2.2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_red-stars2004">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars212</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars204</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_phone2">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars2006">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars203</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_phone20">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_red-stars22">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-stars0010">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -3184,16 +2497,70 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_phone80">
+	<Style id="s_ylw-pushpin_hl1">
 		<IconStyle>
-			<scale>0.5</scale>
+			<scale>0.590909</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_red-stars4">
+	<StyleMap id="m_ylw-pushpin000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible10">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_dining3">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars202">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_red-stars000">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -3207,17 +2574,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_dining0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_phone9">
+	<Style id="sh_phone1000">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -3226,7 +2583,17 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin4">
+	<Style id="sn_wheel_chair_accessible30">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin7">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -3241,17 +2608,75 @@
 			<color>b37f55aa</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_phone9">
+	<Style id="sh_info">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars230">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_phone1</styleUrl>
+			<styleUrl>#sn_ylw-pushpin11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_phone3</styleUrl>
+			<styleUrl>#sh_ylw-pushpin3</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_wheel_chair_accessible1">
+	<Style id="sn_phone8">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="failed1">
+	</Style>
+	<Style id="sh_ylw-pushpin41">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7f00aa</color>
+			<width>2.2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_wheel_chair_accessible3">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -3261,9 +2686,8 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_phone5">
+	<Style id="sn_phone80">
 		<IconStyle>
-			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
@@ -3271,14 +2695,703 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="m_ylw-pushpin00">
+	<Style id="sh_ylw-pushpin4">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_phone">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone6">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin10</styleUrl>
+			<styleUrl>#sn_phone0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl10</styleUrl>
+			<styleUrl>#sh_phone</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars213">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_parking_lot10">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_dining0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars1000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_dining3">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_phone8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_info0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_info0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_info0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_bus01">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>807f00aa</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_red-stars2000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars214</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars202</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars20">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars210">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars213</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_toilets0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars6">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-stars7">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-stars205">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_phone5">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_phone70">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_info">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_info</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_info</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-stars21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_phone00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone1000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_parking_lot2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wheel_chair_accessible00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_phone02">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone201</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_dining00">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/dining.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_phone202">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible00">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5500</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_red-stars201">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_parking_lot10">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_red-stars2002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars218</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars200</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars212">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl10">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parks.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_phone20">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-stars20">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin8">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5500</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5500</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_phone">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-stars2150">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars120">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-stars1">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_phone10">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_red-stars001">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f55aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f55aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_dining5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_dining3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_dining3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_phone1002">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_phone40">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars220">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-stars01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars0010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars220">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-stars2003">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars217</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars208</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed">
+	</Style>
+	<StyleMap id="msn_red-stars021">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_bus00">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin00">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_parking_lot5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_red-stars11">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_phone01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_phone200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_phone1001</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible11">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_red-stars1100">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_red-stars3">
@@ -3295,9 +3408,73 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_ylw-pushpin3">
+	<Style id="sh_ylw-pushpin8">
 		<IconStyle>
 			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>b37f5555</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>b37f5555</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_phone6">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_parking_lot10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_parking_lot</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_parking_lot</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_wheel_chair_accessible0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_parking_lot">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin11">
+		<IconStyle>
+			<scale>1.1</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
 			</Icon>
@@ -3310,37 +3487,7 @@
 			<color>b37f55aa</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_phone20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone70</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-stars210">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars213</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_toilets0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_phone1">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_dining3">
+	<Style id="sn_dining">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -3350,109 +3497,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_phone7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_phone30</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_phone5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_red-stars23">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_red-stars230">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_parking_lot0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars3">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_red-stars020">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars120</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_parking_lot3">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_info">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_info</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_info</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_red-stars02">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars230</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_bus0">
+	<Style id="sn_bus2">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -3462,55 +3507,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_dining01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_dining2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_dining2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_phone200">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_parking_lot4">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_red-stars2001">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars2130</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars206</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Folder>
 		<name>Academic Buildings</name>
 		<Placemark id="Arts">
@@ -4009,7 +4005,6 @@
 	</Folder>
 	<Folder>
 		<name>Athletics</name>
-		<open>1</open>
 		<Placemark id="AthleticsTemp">
 			<name>Athletics Temporary Offices [TR]</name>
 			<description>Athletics Temporary Offices [TR]</description>
@@ -4538,7 +4533,6 @@
 	</Folder>
 	<Folder id="DiningOptions">
 		<name>Dining</name>
-		<open>1</open>
 		<Placemark>
 			<name>Dining Commons [DC]</name>
 			<description>Dining Commons [DC]</description>
@@ -6349,7 +6343,6 @@
 	</Folder>
 	<Folder>
 		<name>Performance Spaces</name>
-		<open>1</open>
 		<Placemark id="AgoraStage">
 			<name>Agora Stage [AG]</name>
 			<description><![CDATA[Agora Stage [AG]
@@ -6921,7 +6914,6 @@
 	</Folder>
 	<Folder>
 		<name>University Facilities</name>
-		<open>1</open>
 		<Placemark id="Accessibility Services">
 			<name>Accessibility Services [AS]</name>
 			<description>Accessibility Services [AS]</description>
@@ -6941,7 +6933,7 @@
 			</Point>
 		</Placemark>
 		<Folder>
-			<name>&quot;Maintenance Facilities&quot;</name>
+			<name>Maintenance Facilities</name>
 			<open>1</open>
 			<Placemark id="BoilerPlant">
 				<name>Boiler Plant/Storage [BP]</name>
