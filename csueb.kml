@@ -36,20 +36,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_red-stars1103">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_dining4">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -259,16 +245,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_red-stars014">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars0010</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars1105</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_dining00">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -289,7 +265,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_red-stars000">
+	<Style id="sh_red-stars110">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -518,16 +494,6 @@
 			<styleUrl>#failed1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-stars013">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars00100</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars1103</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_dining">
 		<Pair>
 			<key>normal</key>
@@ -547,20 +513,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_red-stars220">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
+	<StyleMap id="msn_red-stars00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars100</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_wheel_chair_accessible000">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -769,20 +731,6 @@
 			<styleUrl>#sh_red-stars12000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_red-stars00100">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sh_phone4">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -964,6 +912,20 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_red-stars000">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sn_wheel_chair_accessible1">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -982,6 +944,20 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
+	</Style>
+	<Style id="sn_red-stars00101">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<Style id="sh_red-stars6">
 		<IconStyle>
@@ -1646,6 +1622,16 @@
 			<styleUrl>#sh_ylw-pushpin11</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_red-stars00000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars00000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars2</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_red-stars230">
 		<Pair>
 			<key>normal</key>
@@ -1686,7 +1672,7 @@
 			<styleUrl>#sh_bus</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-stars00000">
+	<StyleMap id="msn_red-stars000000">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_red-stars000000</styleUrl>
@@ -1938,6 +1924,20 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_red-stars1105">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sh_ylw-pushpin3">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -1962,20 +1962,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars00101">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
 	</Style>
 	<Style id="sh_red-stars1">
 		<IconStyle>
@@ -2031,6 +2017,16 @@
 			<styleUrl>#sh_parking_lot4</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_red-stars014">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars0010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars1105</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_dining1">
 		<Pair>
 			<key>normal</key>
@@ -2079,6 +2075,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_red-stars013">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars00100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars1103</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_dining1">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -2355,16 +2361,6 @@
 			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_red-stars1000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars220</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars000</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_red-stars22001">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -2389,20 +2385,6 @@
 			<styleUrl>#sh_red-stars11</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_red-stars100">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sh_wheel_chair_accessible20">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -2501,22 +2483,6 @@
 		<PolyStyle>
 			<color>b37f5500</color>
 		</PolyStyle>
-	</Style>
-	<Style id="sh_red-stars2">
-		<IconStyle>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
 	</Style>
 	<StyleMap id="msn_wheel_chair_accessible000">
 		<Pair>
@@ -2719,6 +2685,20 @@
 			<styleUrl>#sh_wheel_chair_accessible10</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_red-stars10">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_phone00">
 		<Pair>
 			<key>normal</key>
@@ -3189,20 +3169,6 @@
 			<styleUrl>#sh_red-stars0000</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_red-stars0010">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_wheel_chair_accessible110">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -3354,16 +3320,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_red-stars00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars100</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_phone200">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -3497,6 +3453,22 @@
 			<styleUrl>#sh_red-stars60</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_red-stars2">
+		<IconStyle>
+			<scale>0.590909</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sh_dining2">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -3618,6 +3590,16 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_red-stars1000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars220</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars000</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_track-00">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -3649,6 +3631,20 @@
 		</IconStyle>
 	</Style>
 	<Style id="sh_red-stars120">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-stars1103">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -3793,6 +3789,16 @@
 			<width>2.2</width>
 		</LineStyle>
 	</Style>
+	<StyleMap id="msn_red-stars01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars00101</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars110</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_red-stars00104">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -3807,16 +3813,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_red-stars6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_wheel_chair_accessible11">
 		<Pair>
 			<key>normal</key>
@@ -3827,6 +3823,20 @@
 			<styleUrl>#sh_wheel_chair_accessible200</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_red-stars220">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sn_wheel_chair_accessible20">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -3871,6 +3881,20 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sn_red-stars00100">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sh_red-stars208">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -3894,20 +3918,6 @@
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
-	</Style>
-	<Style id="sn_red-stars10">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
 	</Style>
 	<Style id="sh_wheel_chair_accessible2">
 		<IconStyle>
@@ -4158,20 +4168,6 @@
 			<styleUrl>#sh_red-stars1102</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_red-stars110">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sn_phone9">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -4191,6 +4187,20 @@
 			<styleUrl>#sh_red-stars00</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_red-stars100">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_red-stars12">
 		<Pair>
 			<key>normal</key>
@@ -4412,20 +4422,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_red-stars1105">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sh_red-stars01">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -4611,16 +4607,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_red-stars01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars00101</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars110</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin4">
 		<Pair>
 			<key>normal</key>
@@ -4641,6 +4627,20 @@
 			<styleUrl>#sh_red-stars6</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_red-stars0010">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<Style id="sn_red-stars21700">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -4711,7 +4711,6 @@
 	</StyleMap>
 	<Folder>
 		<name>Academic Buildings</name>
-		<open>1</open>
 		<Placemark id="Arts">
 			<name>Art &amp; Education [AE]</name>
 			<description><![CDATA[Art & Education [AE]
@@ -5199,7 +5198,8 @@
 		<Placemark id="ArtGallery">
 			<name>University Art Gallery [UA]</name>
 			<description><![CDATA[University Art Gallery [UA]
-<a href="https://www.csueastbay.edu/artgallery/">https://www.csueastbay.edu/artgallery/</a>]]></description>
+<a href="https://www.csueastbay.edu/artgallery/">https://www.csueastbay.edu/artgallery/</a>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/ua.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0561846921322</longitude>
 				<latitude>37.65792595171864</latitude>
@@ -5218,7 +5218,8 @@
 		<Placemark id="AnthroMuseum">
 			<name>C.E. Smith Museum of Anthropology [CE]</name>
 			<description><![CDATA[C.E. Smith Museum of Anthropology [CE]
-<a href="https://www.csueastbay.edu/museum/">https://www.csueastbay.edu/museum/</a>]]></description>
+<a href="https://www.csueastbay.edu/museum/">https://www.csueastbay.edu/museum/</a>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/ce.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0547787876569</longitude>
 				<latitude>37.65351691639422</latitude>
@@ -5329,7 +5330,7 @@
 		</Placemark>
 		<Placemark id="PracticeField">
 			<name>Practice Field</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/recreation/practice_field.jpg">]]></description>
+			<description>Practice Field</description>
 			<LookAt>
 				<longitude>-122.0629673327537</longitude>
 				<latitude>37.6579679135106</latitude>
@@ -5631,6 +5632,7 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_phone11</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0552267073941,37.65643055569493,0</coordinates>
@@ -7553,7 +7555,7 @@
 		</Placemark>
 		<Placemark id="Amphitheatre">
 			<name>Pioneer Amphitheatre [PA]</name>
-			<description>Pioneer Amphitheatre [PA]</description>
+			<description><![CDATA[<img style="max-width:500px;" src="file:///C:/Users/az4882/Downloads/IMG_9851.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0568079890539</longitude>
 				<latitude>37.65893152128505</latitude>
@@ -7572,7 +7574,8 @@
 		<Placemark id="UniversityTheatre">
 			<name>University Theatre [TH]</name>
 			<description><![CDATA[University Theatre [TH]
-<a href="http://www.csueastbay.edu/theatre/index.html">http://www.csueastbay.edu/theatre/index.html</a>]]></description>
+<a href="http://www.csueastbay.edu/theatre/index.html">http://www.csueastbay.edu/theatre/index.html</a>
+<img style="max-width:500px;" src="file:///C:/Users/az4882/Downloads/IMG_3459.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0578095329616</longitude>
 				<latitude>37.65936392890788</latitude>
@@ -8108,7 +8111,6 @@
 	</Folder>
 	<Folder>
 		<name>University Facilities</name>
-		<open>1</open>
 		<Placemark id="Accessibility Services">
 			<name>Accessibility Services [AS]</name>
 			<description><![CDATA[Accessibility Services [AS]  (LI 2400)
@@ -8309,7 +8311,7 @@ This is the Recreation and Wellness Ceneter. Students come here to meet their da
 				<range>580.3987379208234</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-stars00000</styleUrl>
+			<styleUrl>#msn_red-stars000000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0545142627605,37.65756640800006,0</coordinates>
@@ -8374,7 +8376,6 @@ This is the Recreation and Wellness Ceneter. Students come here to meet their da
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_red-stars0200</styleUrl>
-			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0556603235735,37.65450229608096,0</coordinates>
@@ -8401,7 +8402,8 @@ This is the Recreation and Wellness Ceneter. Students come here to meet their da
 		</Placemark>
 		<Placemark>
 			<name>The Welcome Center [WC]</name>
-			<description><![CDATA[The Welcome Center [WC] <a href="https://www.csueastbay.edu/visit/">https://www.csueastbay.edu/visit/</a>]]></description>
+			<description><![CDATA[The Welcome Center [WC], Student and Faculty Support Building, 1st floor, Suite 122 <a href="https://www.csueastbay.edu/visit/">https://www.csueastbay.edu/visit/</a>
+<img style="max-width:500px;" src="file:///C:/Users/az4882/Downloads/IMG_9889.JPG">]]></description>
 			<LookAt>
 				<longitude>-122.0545490667961</longitude>
 				<latitude>37.65806443597016</latitude>
@@ -8411,7 +8413,7 @@ This is the Recreation and Wellness Ceneter. Students come here to meet their da
 				<range>109.9944489173174</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-stars6</styleUrl>
+			<styleUrl>#msn_red-stars00000</styleUrl>
 			<Point>
 				<coordinates>-122.054597836073,37.65791554396371,0</coordinates>
 			</Point>
