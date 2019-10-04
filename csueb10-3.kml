@@ -926,16 +926,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_bus00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus00</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_red-stars4">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -1027,16 +1017,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_bus1">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sh_wheel_chair_accessible4">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -1047,16 +1027,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_bus0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_dining0">
 		<Pair>
 			<key>normal</key>
@@ -1137,16 +1107,6 @@
 			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_bus2">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_red-stars2007">
 		<Pair>
 			<key>normal</key>
@@ -1318,16 +1278,6 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<Style id="sn_bus">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<StyleMap id="msn_red-stars015">
 		<Pair>
@@ -1587,6 +1537,16 @@
 			<styleUrl>#sh_parking_lot20</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_bus1">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_red-stars5">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -2212,6 +2172,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_bus">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_red-stars10">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -2446,32 +2416,12 @@
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_bus">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_parking_lot11">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_bus0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -2513,6 +2463,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_bus00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus00</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_parking_lot2">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -2618,6 +2578,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_bus00">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_red-stars005">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -2675,6 +2645,16 @@
 			<styleUrl>#sh_wheel_chair_accessible03</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_bus0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_red-stars21500">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -2757,16 +2737,6 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<Style id="sh_bus0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<Style id="sn_red-stars1">
 		<IconStyle>
@@ -3161,16 +3131,6 @@
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_bus00">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -3920,6 +3880,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_bus0">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_track">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -4171,6 +4141,16 @@
 			<styleUrl>#sh_red-stars110</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_bus01">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="s_ylw-pushpin_hl000">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -4392,6 +4372,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_bus0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus0</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_red-stars2003034">
 		<Pair>
 			<key>normal</key>
@@ -4440,6 +4430,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_bus">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_parking_lot13">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -4605,16 +4605,6 @@
 			<styleUrl>#sh_red-stars20802</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_bus01">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_bus1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_bus01</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_red-stars100">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -4751,16 +4741,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_bus01">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sh_wheel_chair_accessible00">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -4819,6 +4799,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_bus01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_bus1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_bus01</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_dining00">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -4868,6 +4858,16 @@
 			<styleUrl>#sh_parking_lot10</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_bus2">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_red-stars204">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -5071,16 +5071,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_bus">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_ylw-pushpin7">
 		<Pair>
 			<key>normal</key>
@@ -5149,6 +5139,16 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="sn_bus">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/bus.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
 	</Style>
 	<Style id="sh_red-stars120">
 		<IconStyle>
@@ -8639,7 +8639,7 @@
 		<open>1</open>
 		<Placemark id="BusStopLI">
 			<name>AC Bus Stop (Rte. 60 - LI)</name>
-			<description>AC Bus Stop (Rte. 60 - LI)</description>
+			<description><![CDATA[AC Bus Stop (Rte. 60 - LI) <img src="http://www.csueastbay.edu/mobile/files/images/map/transportation-bart/ac-li.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0573359450863</longitude>
 				<latitude>37.65578021528643</latitude>
@@ -8657,7 +8657,7 @@
 		</Placemark>
 		<Placemark id="BusStopRAW">
 			<name>AC Bus Stop (Rte. 60 - RAW)</name>
-			<description>AC Bus Stop (Rte. 60 - RAW)</description>
+			<description><![CDATA[AC Bus Stop (Rte. 60 - RAW) <img src="http://www.csueastbay.edu/mobile/files/images/map/transportation-bart/ac-raw.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0537339085142</longitude>
 				<latitude>37.65377857799502</latitude>
@@ -8675,7 +8675,7 @@
 		</Placemark>
 		<Placemark id="BusStopSA">
 			<name>AC Bus Stop (Rte. 60 - SA)</name>
-			<description>AC Bus Stop (Rte. 60 - SA)</description>
+			<description><![CDATA[AC Bus Stop (Rte. 60 - SA)<img src="http://www.csueastbay.edu/mobile/files/images/map/transportation-bart/ac-sa.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0536212873659</longitude>
 				<latitude>37.65818624453827</latitude>
@@ -8693,7 +8693,7 @@
 		</Placemark>
 		<Placemark id="ShuttleRAW">
 			<name>CSUEB Shuttle to BART - (RAW)</name>
-			<description>CSUEB Shuttle to BART - (RAW)</description>
+			<description><![CDATA[CSUEB Shuttle to BART - (RAW)<img src="http://www.csueastbay.edu/mobile/files/images/map/transportation-bart/ac-raw.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.053758717402</longitude>
 				<latitude>37.65384529611243</latitude>
@@ -8704,6 +8704,7 @@
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
 			<styleUrl>#msn_bus0</styleUrl>
+			<gx:balloonVisibility>1</gx:balloonVisibility>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0535054597533,37.65403374262063,0</coordinates>
