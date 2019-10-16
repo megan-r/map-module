@@ -3554,16 +3554,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.590909</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sh_parking_lot13">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -4371,16 +4361,6 @@
 			<styleUrl>#sh_dining4</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="m_ylw-pushpin00000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0000</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_ylw-pushpin10">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -4822,16 +4802,6 @@
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin0000">
-		<IconStyle>
-			<color>ff0000ff</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/caution.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -6983,7 +6953,7 @@
 		<open>1</open>
 		<Placemark id="AE12">
 			<name>Art &amp; Education 12 [AE]</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/aalotd2.jpg">]]></description>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/ae122.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0564372650206</longitude>
 				<latitude>37.65779507487336</latitude>
@@ -7001,7 +6971,7 @@
 		</Placemark>
 		<Placemark id="ARTS12">
 			<name>Art &amp; Education 12 [AE]</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/ae12.jpg">]]></description>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/ae121.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0554882344186</longitude>
 				<latitude>37.65869518208458</latitude>
@@ -7199,6 +7169,7 @@
 		</Placemark>
 		<Placemark id="RAW">
 			<name>Recreation and Wellness Center [RAW]</name>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/aalotd2.jpg">]]></description>
 			<LookAt>
 				<longitude>-122.0531858548035</longitude>
 				<latitude>37.65523591438837</latitude>
@@ -7208,7 +7179,7 @@
 				<range>55.31944649676917</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin00000</styleUrl>
+			<styleUrl>#m_ylw-pushpin0000</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0530247018697,37.65527121607751,0</coordinates>
@@ -8052,7 +8023,6 @@
 	</Folder>
 	<Folder id="ParkingPermits">
 		<name>Parking Permit Dispensers</name>
-		<open>1</open>
 		<Placemark id="dispenser_Harder">
 			<name>Daily/Hourly Permit Dispensers - Harder Rd</name>
 			<description><![CDATA[<a href="https://www.csueastbay.edu/parking/parking-and-fees/index.html"> Parkign and Fees Website</a> - Harder Rd
