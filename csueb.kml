@@ -79,16 +79,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_wheel_chair_accessible">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible000</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_red-stars1106">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -102,16 +92,6 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<Style id="sn_wheel_chair_accessible110">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<StyleMap id="msn_parking_lot13">
 		<Pair>
@@ -162,6 +142,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_wheel_chair_accessible2">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_caution">
 		<IconStyle>
 			<color>ff0000ff</color>
@@ -187,16 +177,6 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible05">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<Style id="sh_dining2">
 		<IconStyle>
@@ -384,6 +364,16 @@
 				<href>http://earth.google.com/images/kml-icons/track-directional/track-0.png</href>
 			</Icon>
 			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
 	<StyleMap id="msn_red-stars5">
@@ -683,6 +673,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_wheel_chair_accessible00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible12</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_red-stars0010">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -711,6 +711,16 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sh_wheel_chair_accessible0000">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -725,6 +735,16 @@
 		<PolyStyle>
 			<color>b37f5500</color>
 		</PolyStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible10">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
 	</Style>
 	<Style id="sh_parking_lot3">
 		<IconStyle>
@@ -770,20 +790,6 @@
 			<styleUrl>#sh_red-stars12010</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_red-stars1104">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
 	<Style id="sh_red-stars">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -844,16 +850,6 @@
 			<styleUrl>#sh_bus</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_wheel_chair_accessible01">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_red-stars20">
 		<Pair>
 			<key>normal</key>
@@ -1069,16 +1065,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_wheel_chair_accessible300">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_caution">
 		<Pair>
 			<key>normal</key>
@@ -1089,6 +1075,16 @@
 			<styleUrl>#sh_caution0</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_wheel_chair_accessible000">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_parks0">
 		<IconStyle>
 			<scale>0.590909</scale>
@@ -1125,6 +1121,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_phone8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_wheel_chair_accessible14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible2</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-stars53">
@@ -1238,26 +1244,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_wheel_chair_accessible10">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible3">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sh_parking_lot16">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -1297,6 +1283,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_wheel_chair_accessible">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible000</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_ylw-pushpin8">
 		<IconStyle>
 			<scale>1.1</scale>
@@ -1364,6 +1360,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_wheel_chair_accessible3">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_red-stars201">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -1382,15 +1388,19 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_wheel_chair_accessible1">
+	<Style id="sn_red-stars00102">
 		<IconStyle>
-			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
 			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
 	<StyleMap id="msn_wheel_chair_accessible0000">
 		<Pair>
@@ -1402,6 +1412,16 @@
 			<styleUrl>#sh_wheel_chair_accessible40</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_wheel_chair_accessible00">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="m_ylw-pushpin000">
 		<Pair>
 			<key>normal</key>
@@ -1505,22 +1525,22 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sn_wheel_chair_accessible1">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_info">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible11">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -1711,6 +1731,16 @@
 			<styleUrl>#sh_red-stars20802</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_wheel_chair_accessible10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible3</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_parking_lot17">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -1795,16 +1825,6 @@
 			<styleUrl>#sh_red-stars1103</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_wheel_chair_accessible12">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_red-stars2000">
 		<Pair>
 			<key>normal</key>
@@ -1895,6 +1915,26 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_wheel_chair_accessible4">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible11">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_red-stars6">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -1947,6 +1987,16 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible01">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
 	</Style>
 	<Style id="sn_red-stars006">
 		<IconStyle>
@@ -2022,16 +2072,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_wheel_chair_accessible0000">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_phone4">
 		<Pair>
 			<key>normal</key>
@@ -2047,6 +2087,16 @@
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible10">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -2095,16 +2145,6 @@
 			<styleUrl>#sh_parking_lot17</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible3</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_ylw-pushpin21">
 		<Pair>
 			<key>normal</key>
@@ -2115,30 +2155,16 @@
 			<styleUrl>#sh_ylw-pushpin0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_red-stars00102">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
-			</Icon>
-			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<ListStyle>
-			<ItemIcon>
-				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
-			</ItemIcon>
-		</ListStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible4">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
+	<StyleMap id="msn_wheel_chair_accessible4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible11</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_red-stars">
 		<Pair>
 			<key>normal</key>
@@ -2182,14 +2208,14 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_wheel_chair_accessible6">
+	<StyleMap id="msn_wheel_chair_accessible500">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible7</styleUrl>
+			<styleUrl>#sn_wheel_chair_accessible11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible01</styleUrl>
+			<styleUrl>#sh_wheel_chair_accessible</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_red-stars20">
@@ -2220,16 +2246,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<StyleMap id="msn_red-stars012">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_red-stars00102</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_red-stars1104</styleUrl>
-		</Pair>
-	</StyleMap>
+	<Style id="sn_wheel_chair_accessible300">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_red-stars500">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -2313,6 +2339,26 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sh_wheel_chair_accessible2">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible01">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_red-stars1101">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -2393,6 +2439,16 @@
 			<styleUrl>#sh_red-stars1100</styleUrl>
 		</Pair>
 	</StyleMap>
+	<StyleMap id="msn_red-stars012">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-stars00102</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-stars1104</styleUrl>
+		</Pair>
+	</StyleMap>
 	<StyleMap id="msn_red-stars020">
 		<Pair>
 			<key>normal</key>
@@ -2471,16 +2527,6 @@
 		</ListStyle>
 	</Style>
 	<Style id="sh_wheel_chair_accessible1">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_wheel_chair_accessible2">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -2612,6 +2658,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_wheel_chair_accessible20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible10</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_red-stars002">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -2631,16 +2687,6 @@
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_wheel_chair_accessible10">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -2746,26 +2792,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_wheel_chair_accessible03">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_wheel_chair_accessible5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible00</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_wheel_chair_accessible51">
 		<Pair>
 			<key>normal</key>
@@ -2819,6 +2845,16 @@
 			<styleUrl>#sh_red-stars200</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_wheel_chair_accessible3">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="msn_ylw-pushpin2">
 		<Pair>
 			<key>normal</key>
@@ -2853,6 +2889,16 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sn_wheel_chair_accessible110">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_dining4">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -2868,6 +2914,16 @@
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_wheel_chair_accessible00">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -2941,16 +2997,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sh_wheel_chair_accessible000">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sh_red-stars010">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -3002,16 +3048,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_red-stars0000</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible000">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible300</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_parking_lot14">
@@ -3071,16 +3107,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_wheel_chair_accessible500">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible0</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_phone20">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -3245,16 +3271,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_wheel_chair_accessible">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_phone01">
 		<Pair>
 			<key>normal</key>
@@ -3275,6 +3291,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_wheel_chair_accessible6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible01</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_parks0">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -3291,7 +3317,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible</styleUrl>
+			<styleUrl>#sh_wheel_chair_accessible0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_red-stars2003032">
@@ -3570,7 +3596,7 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sh_wheel_chair_accessible">
+	<Style id="sh_wheel_chair_accessible0">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.590909</scale>
@@ -3735,26 +3761,16 @@
 			<styleUrl>#sh_toilets1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_wheel_chair_accessible0">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible2">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
+	<StyleMap id="msn_wheel_chair_accessible000">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible4</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_parking_lot10">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -3953,6 +3969,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_wheel_chair_accessible30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible0000</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_red-stars200">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -4061,6 +4087,26 @@
 			<styleUrl>#sh_phone1002</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_wheel_chair_accessible12">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_wheel_chair_accessible3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible03</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_track-0">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -4145,16 +4191,6 @@
 				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
 			</ItemIcon>
 		</ListStyle>
-	</Style>
-	<Style id="sn_wheel_chair_accessible6">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<StyleMap id="msn_dining00">
 		<Pair>
@@ -4252,16 +4288,6 @@
 		<BalloonStyle>
 		</BalloonStyle>
 	</Style>
-	<StyleMap id="msn_wheel_chair_accessible30">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible0000</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sn_parking_lot12">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -4399,16 +4425,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_wheel_chair_accessible14">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible2</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_red-stars200301">
 		<Pair>
 			<key>normal</key>
@@ -4463,26 +4479,6 @@
 			<styleUrl>#sh_red-stars1102</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_wheel_chair_accessible4">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sn_wheel_chair_accessible3">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<Style id="sh_parking_lot4">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -4623,26 +4619,6 @@
 		</IconStyle>
 		<BalloonStyle>
 		</BalloonStyle>
-	</Style>
-	<StyleMap id="msn_wheel_chair_accessible50">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible110</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible05</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_wheel_chair_accessible01">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
 	</Style>
 	<Style id="sh_red-stars1200">
 		<IconStyle>
@@ -4794,6 +4770,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<Style id="sh_wheel_chair_accessible05">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="msn_parking_lot15">
 		<Pair>
 			<key>normal</key>
@@ -4872,6 +4858,30 @@
 			<styleUrl>#sh_parking_lot3</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_red-stars1104">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-stars-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible7">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_red-stars000">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -4894,16 +4904,6 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_wheel_chair_accessible200</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible03</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_dining0">
@@ -4936,7 +4936,7 @@
 			<styleUrl>#sh_red-stars20800</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_wheel_chair_accessible7">
+	<Style id="sh_wheel_chair_accessible03">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -4990,26 +4990,6 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_wheel_chair_accessible00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible01</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible12</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible20">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible10</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_info0">
 		<Pair>
 			<key>normal</key>
@@ -5020,7 +5000,7 @@
 			<styleUrl>#sh_info0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_wheel_chair_accessible00">
+	<Style id="sn_wheel_chair_accessible4">
 		<IconStyle>
 			<color>ffff0000</color>
 			<scale>0.5</scale>
@@ -5070,6 +5050,16 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
+	<StyleMap id="msn_wheel_chair_accessible50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_wheel_chair_accessible110</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_wheel_chair_accessible05</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_ylw-pushpin41">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -5198,6 +5188,16 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
+	<Style id="sn_wheel_chair_accessible6">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_red-stars11">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -5260,6 +5260,16 @@
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/toilets.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_wheel_chair_accessible">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -5390,14 +5400,14 @@
 			<styleUrl>#sh_red-stars20</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_wheel_chair_accessible4">
+	<StyleMap id="msn_wheel_chair_accessible5">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_wheel_chair_accessible10</styleUrl>
+			<styleUrl>#sn_wheel_chair_accessible1</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_wheel_chair_accessible11</styleUrl>
+			<styleUrl>#sh_wheel_chair_accessible00</styleUrl>
 		</Pair>
 	</StyleMap>
 	<StyleMap id="msn_dining000">
@@ -5415,16 +5425,6 @@
 			<scale>0.5</scale>
 			<Icon>
 				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
-	<Style id="sh_wheel_chair_accessible00">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
 			</Icon>
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
@@ -6984,6 +6984,7 @@ Saturday - Sunday: Closed<br>
 	</Folder>
 	<Folder id="DisabilityAccesses">
 		<name>Disability Access</name>
+		<open>1</open>
 		<Placemark>
 			<name>All Accessible Pathways</name>
 			<styleUrl>#msn_ylw-pushpin20</styleUrl>
@@ -7007,8 +7008,9 @@ Saturday - Sunday: Closed<br>
 		</Placemark>
 		<Folder>
 			<name>Accessible Paths for People with Disabilities</name>
+			<open>1</open>
 			<Placemark id="disability1">
-				<name>Music Building</name>
+				<name>Music Building Pathway</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/mbpath.jpg">]]></description>
 				<LookAt>
@@ -7027,8 +7029,12 @@ Saturday - Sunday: Closed<br>
 				</Point>
 			</Placemark>
 			<Placemark id="disability3">
-				<name>Music Building</name>
+				<name>Music Building, East Bay Paratransit</name>
 				<description><![CDATA[Access for People with Disabilities<br>
+<br>
+
+<a href="https://www.eastbayparatransit.org/"> East Bay Paratransit Website</a>
+<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/dropoff.jpg">]]></description>
 				<LookAt>
 					<longitude>-122.0597757003764</longitude>
@@ -7065,7 +7071,7 @@ Saturday - Sunday: Closed<br>
 				</Point>
 			</Placemark>
 			<Placemark id="disability4">
-				<name>Meiklejohn Hall [MI]</name>
+				<name>Meiklejohn Hall Accessible Parking Lot [MI]</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br>
 <img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/mi-accessible-parking-400-400.jpg">]]></description>
@@ -7085,7 +7091,7 @@ Saturday - Sunday: Closed<br>
 				</Point>
 			</Placemark>
 			<Placemark id="disability5">
-				<name>University Theatre [TH]</name>
+				<name>University Theatre Pathway [TH]</name>
 				<description><![CDATA[Access for People with Disabilities <br>
 <br>
 
@@ -7106,7 +7112,7 @@ Saturday - Sunday: Closed<br>
 				</Point>
 			</Placemark>
 			<Placemark id="disability6">
-				<name>Accessible Ramp going to VBT, SA &amp; Science Buildings</name>
+				<name>Accessible Ramp going to Valley Bussiness Technology</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/ramp-to-vbt.jpg">]]></description>
 				<LookAt>
@@ -7144,7 +7150,7 @@ Saturday - Sunday: Closed<br>
 				</Point>
 			</Placemark>
 			<Placemark id="disability8">
-				<name>Accessible Ramp from Parking Lot H to SA, VBT and Science Buildings</name>
+				<name>Accessible Ramp from Parking Lot H to Student Administration</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br>
 
@@ -7165,7 +7171,7 @@ Saturday - Sunday: Closed<br>
 				</Point>
 			</Placemark>
 			<Placemark id="disability9">
-				<name>Accessible Ramp to North side of the Science Building</name>
+				<name>Accessible Ramp to North Science Building</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/lottoscience.jpg">]]></description>
 				<LookAt>
@@ -7184,7 +7190,7 @@ Saturday - Sunday: Closed<br>
 				</Point>
 			</Placemark>
 			<Placemark id="disability10">
-				<name>Handicapped Parking behind the Science Building</name>
+				<name>Handicapped Parking Behind the Science Building</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/acccessibleparking.jpg">]]></description>
 				<LookAt>
@@ -7240,6 +7246,24 @@ Saturday - Sunday: Closed<br>
 					<coordinates>-122.0538223854457,37.65376290734174,0</coordinates>
 				</Point>
 			</Placemark>
+			<Placemark id="disability17">
+				<name>Accessible Ramp Lot A</name>
+				<description>Access for People with Disabilities</description>
+				<LookAt>
+					<longitude>-122.0575019723287</longitude>
+					<latitude>37.65597912019182</latitude>
+					<altitude>0</altitude>
+					<heading>25.77723698276468</heading>
+					<tilt>4.024930630447939</tilt>
+					<range>100.0538127415688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible14</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0575857912287,37.65588800278563,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
 			<Placemark id="disability13">
 				<name>Handicapped Parking in Lot A</name>
 				<description>Access for People with Disabilities</description>
@@ -7258,8 +7282,26 @@ Saturday - Sunday: Closed<br>
 					<coordinates>-122.0569360884243,37.65486649148815,0</coordinates>
 				</Point>
 			</Placemark>
+			<Placemark id="disability20">
+				<name>Handicapped Parking in Lot A</name>
+				<description>Access for People with Disabilities</description>
+				<LookAt>
+					<longitude>-122.0576977656549</longitude>
+					<latitude>37.65574614051339</latitude>
+					<altitude>0</altitude>
+					<heading>25.81854050896096</heading>
+					<tilt>5.519739497543177</tilt>
+					<range>96.45967347563595</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0577716196265,37.65560694082994,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
 			<Placemark id="disability14">
-				<name>Accessible Ramp from RAW to the Science Buildings</name>
+				<name>Accessible Ramp from RAW to  Science Buildings</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/rawtoscience.jpg">]]></description>
 				<LookAt>
@@ -7320,26 +7362,8 @@ Saturday - Sunday: Closed<br>
 					<coordinates>-122.0569981892894,37.65566969637505,150.1905571325759</coordinates>
 				</Point>
 			</Placemark>
-			<Placemark id="disability17">
-				<name>Handicapped Parking near Lot A</name>
-				<description>Access for People with Disabilities</description>
-				<LookAt>
-					<longitude>-122.0575019723287</longitude>
-					<latitude>37.65597912019182</latitude>
-					<altitude>0</altitude>
-					<heading>25.77723698276468</heading>
-					<tilt>4.024930630447939</tilt>
-					<range>100.0538127415688</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible14</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0575857912287,37.65588800278563,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
 			<Placemark id="disability18">
-				<name>Accessible Path to the PE Building and the Health Center</name>
+				<name>Accessible Path to Physical Education and Health Center</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/petohealth.jpg">]]></description>
 				<LookAt>
@@ -7358,7 +7382,7 @@ Saturday - Sunday: Closed<br>
 				</Point>
 			</Placemark>
 			<Placemark id="disability19">
-				<name>Accessible Seating for Pioneer Stadium</name>
+				<name>Accessible Seating in Pioneer Stadium</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/stadium.jpg">]]></description>
 				<LookAt>
@@ -7376,26 +7400,8 @@ Saturday - Sunday: Closed<br>
 					<coordinates>-122.0598974350634,37.6571456593777,150.1905571325759</coordinates>
 				</Point>
 			</Placemark>
-			<Placemark id="disability20">
-				<name>Handicapped Parking in Lot A</name>
-				<description>Access for People with Disabilities</description>
-				<LookAt>
-					<longitude>-122.0576977656549</longitude>
-					<latitude>37.65574614051339</latitude>
-					<altitude>0</altitude>
-					<heading>25.81854050896096</heading>
-					<tilt>5.519739497543177</tilt>
-					<range>96.45967347563595</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible13</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0577716196265,37.65560694082994,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
 			<Placemark id="disability21">
-				<name>Accessible Path Parking J to AE Building</name>
+				<name>Accessible Path from Parking J to Arts &amp; Education Building</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/lotj-ae.jpg">]]></description>
 				<LookAt>
@@ -7436,7 +7442,6 @@ Saturday - Sunday: Closed<br>
 	</Folder>
 	<Folder>
 		<name>Emergency Gathering Locations</name>
-		<open>1</open>
 		<Placemark id="AE12">
 			<name>Art &amp; Education 12 [AE]</name>
 			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/ae122.jpg">]]></description>
