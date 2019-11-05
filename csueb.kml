@@ -1308,7 +1308,7 @@
 			<color>b37f5500</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_red-stars004">
+	<Style id="sn_red-stars001">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -1322,7 +1322,7 @@
 			</ItemIcon>
 		</ListStyle>
 	</Style>
-	<Style id="sn_red-stars001">
+	<Style id="sn_red-stars004">
 		<IconStyle>
 			<scale>0.5</scale>
 			<Icon>
@@ -3800,15 +3800,6 @@
 			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
 		</IconStyle>
 	</Style>
-	<Style id="sn_phone80">
-		<IconStyle>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_red-stars02001">
 		<Pair>
 			<key>normal</key>
@@ -3819,6 +3810,15 @@
 			<styleUrl>#sh_red-stars1201</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_phone80">
+		<IconStyle>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/phone.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sh_red-stars100">
 		<IconStyle>
 			<scale>0.5</scale>
@@ -4087,16 +4087,6 @@
 			<styleUrl>#sh_phone1002</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_wheel_chair_accessible12">
-		<IconStyle>
-			<color>ffff0000</color>
-			<scale>0.5</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
-			</Icon>
-			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
-		</IconStyle>
-	</Style>
 	<StyleMap id="msn_wheel_chair_accessible3">
 		<Pair>
 			<key>normal</key>
@@ -4107,6 +4097,16 @@
 			<styleUrl>#sh_wheel_chair_accessible03</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_wheel_chair_accessible12">
+		<IconStyle>
+			<color>ffff0000</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/wheel_chair_accessible.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
 	<Style id="sn_track-0">
 		<IconStyle>
 			<color>ffff0000</color>
@@ -5568,6 +5568,25 @@
 				<coordinates>-122.0559761477493,37.65790574260594,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>CORE Building</name>
+			<description><![CDATA[<a href="https://www.csueastbay.edu/core/">CORE Building [CB] Website
+</a>]]></description>
+			<LookAt>
+				<longitude>-122.0554735076593</longitude>
+				<latitude>37.65607200911987</latitude>
+				<altitude>0</altitude>
+				<heading>-0.4605201954386837</heading>
+				<tilt>55.34503123583875</tilt>
+				<range>498.7540643482789</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-stars00110</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0548583333333,37.65511388888888,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="Mieklejohn">
 			<name>Meiklejohn Hall [MI]</name>
 			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/mi2.jpg">]]></description>
@@ -5710,65 +5729,9 @@
 				<coordinates>-122.0551848705593,37.65699719216751,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
-			<name>CORE Building</name>
-			<description><![CDATA[<a href="https://www.csueastbay.edu/core/">CORE Building [CB] Website
-</a>]]></description>
-			<LookAt>
-				<longitude>-122.0554735076593</longitude>
-				<latitude>37.65607200911987</latitude>
-				<altitude>0</altitude>
-				<heading>-0.4605201954386837</heading>
-				<tilt>55.34503123583875</tilt>
-				<range>498.7540643482789</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars00110</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0548583333333,37.65511388888888,0</coordinates>
-			</Point>
-		</Placemark>
 	</Folder>
 	<Folder>
 		<name>All Gender Bathrooms</name>
-		<Folder>
-			<name>Student Health Center</name>
-			<Placemark>
-				<name>HC (AGB1)</name>
-				<description>Student Health Center [HC] (AGB1)</description>
-				<LookAt>
-					<longitude>-122.0573431199408</longitude>
-					<latitude>37.65623254225761</latitude>
-					<altitude>0</altitude>
-					<heading>-133.9022032692402</heading>
-					<tilt>43.07273613942439</tilt>
-					<range>123.2333034125983</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_red-stars210</styleUrl>
-				<Point>
-					<coordinates>-122.0574035627255,37.6563869678203,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>HC (AGB2)</name>
-				<description>Student Health Center [HC] (AGB2)</description>
-				<LookAt>
-					<longitude>-122.0573431199408</longitude>
-					<latitude>37.65623254225761</latitude>
-					<altitude>0</altitude>
-					<heading>-133.9022032692402</heading>
-					<tilt>43.07273613942439</tilt>
-					<range>123.2333034125983</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_red-stars210</styleUrl>
-				<Point>
-					<coordinates>-122.0574200128624,37.65640049209528,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
 		<Folder>
 			<name>Lassen Hall Housing</name>
 			<Placemark>
@@ -5807,7 +5770,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>Mieklejohn Hall</name>
+			<name>Meiklejohn Hall</name>
 			<Placemark>
 				<name>MI (RM 1072)</name>
 				<description>Meiklejohn Hall [MI], 1st Floor, Room 1072</description>
@@ -5915,6 +5878,27 @@
 			</Placemark>
 		</Folder>
 		<Folder>
+			<name>New University Union</name>
+			<Placemark>
+				<name>New UU (   )</name>
+				<description>New University Union [UU], 2nd Floor, Room ____</description>
+				<LookAt>
+					<longitude>-122.0565122870686</longitude>
+					<latitude>37.65470299813786</latitude>
+					<altitude>0</altitude>
+					<heading>-112.7608775946235</heading>
+					<tilt>57.98980863158752</tilt>
+					<range>346.5423167527248</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible0000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0555398012548,37.6543398164394,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
 			<name>Recreation and Wellness Center</name>
 			<Placemark>
 				<name>RAW (RM 104)</name>
@@ -6006,6 +5990,43 @@
 			</Placemark>
 		</Folder>
 		<Folder>
+			<name>Student Health Center</name>
+			<Placemark>
+				<name>HC (AGB1)</name>
+				<description>Student Health Center [HC] (AGB1)</description>
+				<LookAt>
+					<longitude>-122.0573431199408</longitude>
+					<latitude>37.65623254225761</latitude>
+					<altitude>0</altitude>
+					<heading>-133.9022032692402</heading>
+					<tilt>43.07273613942439</tilt>
+					<range>123.2333034125983</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars210</styleUrl>
+				<Point>
+					<coordinates>-122.0574035627255,37.6563869678203,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>HC (AGB2)</name>
+				<description>Student Health Center [HC] (AGB2)</description>
+				<LookAt>
+					<longitude>-122.0573431199408</longitude>
+					<latitude>37.65623254225761</latitude>
+					<altitude>0</altitude>
+					<heading>-133.9022032692402</heading>
+					<tilt>43.07273613942439</tilt>
+					<range>123.2333034125983</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_red-stars210</styleUrl>
+				<Point>
+					<coordinates>-122.0574200128624,37.65640049209528,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
 			<name>Student &amp; Faculty Building</name>
 			<Placemark>
 				<name>SF (RM 245)</name>
@@ -6042,51 +6063,9 @@
 				</Point>
 			</Placemark>
 		</Folder>
-		<Folder>
-			<name>New University Union</name>
-			<Placemark>
-				<name>New UU (   )</name>
-				<description>New University Union [UU], 2nd Floor, Room ____</description>
-				<LookAt>
-					<longitude>-122.0565122870686</longitude>
-					<latitude>37.65470299813786</latitude>
-					<altitude>0</altitude>
-					<heading>-112.7608775946235</heading>
-					<tilt>57.98980863158752</tilt>
-					<range>346.5423167527248</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible0000</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0555398012548,37.6543398164394,0</coordinates>
-				</Point>
-			</Placemark>
-		</Folder>
 	</Folder>
 	<Folder>
 		<name>Art Galleries</name>
-		<Placemark id="ArtGallery">
-			<name>University Art Gallery [UA]</name>
-			<description><![CDATA[<a href="https://www.csueastbay.edu/artgallery/">University Art Gallery [UA] Website
-</a><br>
-<br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/ua.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0561846921322</longitude>
-				<latitude>37.65792595171864</latitude>
-				<altitude>9.743752503380215</altitude>
-				<heading>-69.2116649470176</heading>
-				<tilt>32.36556658218112</tilt>
-				<range>331.780170994141</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars014</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0561846921322,37.65792595171864,0</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="AnthroMuseum">
 			<name>C.E. Smith Museum of Anthropology [CE]</name>
 			<description><![CDATA[<a href="https://www.csueastbay.edu/museum/">C.E. Smith Museum of Anthropology [CE] Website
@@ -6106,6 +6085,27 @@
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0547787876569,37.65351691639422,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="ArtGallery">
+			<name>University Art Gallery [UA]</name>
+			<description><![CDATA[<a href="https://www.csueastbay.edu/artgallery/">University Art Gallery [UA] Website
+</a><br>
+<br>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/ua.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0561846921322</longitude>
+				<latitude>37.65792595171864</latitude>
+				<altitude>9.743752503380215</altitude>
+				<heading>-69.2116649470176</heading>
+				<tilt>32.36556658218112</tilt>
+				<range>331.780170994141</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-stars014</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0561846921322,37.65792595171864,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
@@ -6275,25 +6275,6 @@
 	</Folder>
 	<Folder id="callboxes">
 		<name>Call Boxes</name>
-		<Placemark id="callbox1">
-			<name>Call Box (Lot C)</name>
-			<description><![CDATA[Call Box [61], Lot C, Outdoor near Pioneer Heights Student Housing 1 [PH]<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-61.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0515894687131</longitude>
-				<latitude>37.65168846810092</latitude>
-				<altitude>0</altitude>
-				<heading>-140.7384386622845</heading>
-				<tilt>46.77103965689841</tilt>
-				<range>130.3259103076715</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_phone5</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.051158230186,37.6517699847266,167.0476418569265</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="callbox2">
 			<name>Call Box (Lot A)</name>
 			<description><![CDATA[Call Box, Lot A, Outdoor<br>
@@ -6315,64 +6296,6 @@
 				<coordinates>-122.0584017534348,37.65586791223368,167.0476418569265</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox3">
-			<name>Call Box (Core Building)</name>
-			<description><![CDATA[Call Box[65], Outdoor near Core Building [CB]<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-65.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0552908001182</longitude>
-				<latitude>37.65540056976469</latitude>
-				<altitude>5.073656835478904</altitude>
-				<heading>58.02762319387731</heading>
-				<tilt>0</tilt>
-				<range>112.7695267067999</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_phone10</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0551748937316,37.65543541724494,167.0476418569265</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="callbox4">
-			<name>Call Box (Harder Rd.)</name>
-			<description><![CDATA[Call Box [68], Outdoor near Information Kiosk - Harder Rd<br>
-<br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-68.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0550960696475</longitude>
-				<latitude>37.65242916235005</latitude>
-				<altitude>0</altitude>
-				<heading>-120.0077123314862</heading>
-				<tilt>60.00548420835881</tilt>
-				<range>238.4865144743262</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_phone30</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0550960696475,37.65242916235005,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="callbox5">
-			<name>Call Box (Overflow Parking)</name>
-			<description><![CDATA[Call Box [46], Outdoor near Overflow Parking<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-46.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.056786642944</longitude>
-				<latitude>37.65310997318922</latitude>
-				<altitude>0</altitude>
-				<heading>-28.06286078737216</heading>
-				<tilt>5.878429640417548</tilt>
-				<range>79.49727233676663</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_phone40</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.056991938227,37.65312321347199,0</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="callbox6">
 			<name>Call Box (Lot B)</name>
 			<description><![CDATA[Call Box, Lot B, Outdoor<br>
@@ -6392,140 +6315,82 @@
 				<coordinates>-122.0566225422102,37.65421402491759,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox7">
-			<name>Call Box (Meiklejohn)</name>
-			<description><![CDATA[Call Box [47], Outdoor near Meiklejohn Hall 4 [MI]<br>
-<br> <img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-47.jpg">]]></description>
+		<Placemark id="callbox1">
+			<name>Call Box (Lot C)</name>
+			<description><![CDATA[Call Box [61], Lot C, Outdoor near Pioneer Heights Student Housing 1 [PH]<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-61.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0550996156576</longitude>
-				<latitude>37.65430866192749</latitude>
+				<longitude>-122.0515894687131</longitude>
+				<latitude>37.65168846810092</latitude>
 				<altitude>0</altitude>
-				<heading>70.81235739669334</heading>
-				<tilt>0</tilt>
-				<range>47.86647202562537</range>
+				<heading>-140.7384386622845</heading>
+				<tilt>46.77103965689841</tilt>
+				<range>130.3259103076715</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_phone6</styleUrl>
+			<styleUrl>#msn_phone5</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0550632955925,37.65427012262458,0</coordinates>
+				<coordinates>-122.051158230186,37.6517699847266,167.0476418569265</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox8">
-			<name>Call Box (Pioneer Stadium)</name>
-			<description><![CDATA[Call Box [57], Outdoor near Pioneer Stadium<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-57.jpg">]]></description>
+		<Placemark id="callbox18">
+			<name>Call Box (Lot D)</name>
+			<description><![CDATA[Call Box [64], Lot D, Outdoor near Recreation and Wellness Center [RAW]<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-64.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0613190980306</longitude>
-				<latitude>37.65663471719049</latitude>
-				<altitude>1.205018492971744</altitude>
-				<heading>-64.72933652894253</heading>
-				<tilt>0.8443471324903803</tilt>
-				<range>108.7589709721605</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_phone20</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0612689770711,37.65661779871569,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="callbox9">
-			<name>Call Box (Softball Field)</name>
-			<description><![CDATA[Call Box [62], Outdoor near Softball [ST] <br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-62.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.062107170107</longitude>
-				<latitude>37.65686146477739</latitude>
+				<longitude>-122.0525452774123</longitude>
+				<latitude>37.65604387972314</latitude>
 				<altitude>0</altitude>
-				<heading>-86.77618636395718</heading>
-				<tilt>0</tilt>
-				<range>288.597467986725</range>
+				<heading>19.22515031517946</heading>
+				<tilt>82.43115676441992</tilt>
+				<range>106.1795693377847</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_phone2</styleUrl>
+			<styleUrl>#msn_phone0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0636070377685,37.6573925599354,0</coordinates>
+				<coordinates>-122.0528397203833,37.65539871290689,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox10">
-			<name>Call Box (Lot N)</name>
-			<description><![CDATA[Call Box [50], Lot N, Outdoor near Information Kiosk - Carlos Bee Blvd<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-50.jpg">]]></description>
+		<Placemark id="callbox17">
+			<name>Call Box (Lot F)</name>
+			<description><![CDATA[Call Box [55], Lot F, Outdoor<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-55.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.061702341302</longitude>
-				<latitude>37.6583213641235</latitude>
-				<altitude>0</altitude>
-				<heading>47.70377651277371</heading>
-				<tilt>0</tilt>
-				<range>56.23704071056443</range>
+				<longitude>-122.0523606602953</longitude>
+				<latitude>37.65649690838846</latitude>
+				<altitude>8.748938999211068</altitude>
+				<heading>-146.4093129824811</heading>
+				<tilt>59.61846031635474</tilt>
+				<range>70.73769506856054</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_phone</styleUrl>
+			<styleUrl>#msn_phone00</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0616272068177,37.65833348413937,0</coordinates>
+				<coordinates>-122.0522112050597,37.65641284043722,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox11">
-			<name>Call Box (Physical Education)</name>
-			<description><![CDATA[Call Box [60], Outdoor near Physical Education & Gym 15 [PE]<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-60.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0582064406824</longitude>
-				<latitude>37.65756366627449</latitude>
-				<altitude>0</altitude>
-				<heading>33.43234623259561</heading>
-				<tilt>0</tilt>
-				<range>296.8911397906435</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_phone400</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0573824359451,37.65756946088585,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="callbox12">
-			<name>Call Box (Lot P)</name>
-			<description><![CDATA[Call Box [59], Lot P, Outdoor<br>
+		<Placemark id="callbox16">
+			<name>Call Box (Lot G)</name>
+			<description><![CDATA[Call Box [76] , Lot G, Outdoor<br>
 <br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-59.jpg">
-]]></description>
+
+<img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-76.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0611733203748</longitude>
-				<latitude>37.65829911850966</latitude>
+				<longitude>-122.052646013596</longitude>
+				<latitude>37.65720782327243</latitude>
 				<altitude>0</altitude>
-				<heading>16.45944676105494</heading>
-				<tilt>10.24098472384751</tilt>
-				<range>217.555005051311</range>
+				<heading>-146.4094497926897</heading>
+				<tilt>15.10645055081109</tilt>
+				<range>107.2149984934481</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_phone9</styleUrl>
+			<styleUrl>#msn_phone01</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.060655489125,37.65899131933244,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="callbox13">
-			<name>Call Box (Valley Business &amp; Technology)</name>
-			<description><![CDATA[Call Box [53], Outdoor near Valley Business & Technology Center [VBT]<br>
-<br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/callboxvbt.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0561027017407</longitude>
-				<latitude>37.6562557251254</latitude>
-				<altitude>7.756552511204877</altitude>
-				<heading>-98.73686570982164</heading>
-				<tilt>75.61352335106507</tilt>
-				<range>188.9630740709818</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_phone11</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0552267073941,37.65643055569493,0</coordinates>
+				<coordinates>-122.0528193737599,37.65750972208264,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="callbox14">
@@ -6573,63 +6438,178 @@
 				<coordinates>-122.056433275654,37.65937326515947,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox16">
-			<name>Call Box (Lot G)</name>
-			<description><![CDATA[Call Box [76] , Lot G, Outdoor<br>
+		<Placemark id="callbox20">
+			<name>Call Box (Lot L)</name>
+			<description><![CDATA[Call Box [67], Outdoor Lot L<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-67.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0585685233845</longitude>
+				<latitude>37.65964167590104</latitude>
+				<altitude>0</altitude>
+				<heading>69.724961367272</heading>
+				<tilt>27.04821543856839</tilt>
+				<range>89.88227016565033</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_phone8</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0584971529217,37.65963272732041,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="callbox10">
+			<name>Call Box (Lot N)</name>
+			<description><![CDATA[Call Box [50], Lot N, Outdoor near Information Kiosk - Carlos Bee Blvd<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-50.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.061702341302</longitude>
+				<latitude>37.6583213641235</latitude>
+				<altitude>0</altitude>
+				<heading>47.70377651277371</heading>
+				<tilt>0</tilt>
+				<range>56.23704071056443</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_phone</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0616272068177,37.65833348413937,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="callbox12">
+			<name>Call Box (Lot P)</name>
+			<description><![CDATA[Call Box [59], Lot P, Outdoor<br>
 <br>
-
-<img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-76.jpg">]]></description>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-59.jpg">
+]]></description>
 			<LookAt>
-				<longitude>-122.052646013596</longitude>
-				<latitude>37.65720782327243</latitude>
+				<longitude>-122.0611733203748</longitude>
+				<latitude>37.65829911850966</latitude>
 				<altitude>0</altitude>
-				<heading>-146.4094497926897</heading>
-				<tilt>15.10645055081109</tilt>
-				<range>107.2149984934481</range>
+				<heading>16.45944676105494</heading>
+				<tilt>10.24098472384751</tilt>
+				<range>217.555005051311</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_phone01</styleUrl>
+			<styleUrl>#msn_phone9</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0528193737599,37.65750972208264,0</coordinates>
+				<coordinates>-122.060655489125,37.65899131933244,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox17">
-			<name>Call Box (Lot F)</name>
-			<description><![CDATA[Call Box [55], Lot F, Outdoor<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-55.jpg">]]></description>
+		<Placemark id="callbox3">
+			<name>Call Box (Core Building)</name>
+			<description><![CDATA[Call Box[65], Outdoor near Core Building [CB]<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-65.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0523606602953</longitude>
-				<latitude>37.65649690838846</latitude>
-				<altitude>8.748938999211068</altitude>
-				<heading>-146.4093129824811</heading>
-				<tilt>59.61846031635474</tilt>
-				<range>70.73769506856054</range>
+				<longitude>-122.0552908001182</longitude>
+				<latitude>37.65540056976469</latitude>
+				<altitude>5.073656835478904</altitude>
+				<heading>58.02762319387731</heading>
+				<tilt>0</tilt>
+				<range>112.7695267067999</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_phone00</styleUrl>
+			<styleUrl>#msn_phone10</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0522112050597,37.65641284043722,0</coordinates>
+				<coordinates>-122.0551748937316,37.65543541724494,167.0476418569265</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox18">
-			<name>Call Box (Lot D)</name>
-			<description><![CDATA[Call Box [64], Lot D, Outdoor near Recreation and Wellness Center [RAW]<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-64.jpg">]]></description>
+		<Placemark id="callbox4">
+			<name>Call Box (Harder Rd.)</name>
+			<description><![CDATA[Call Box [68], Outdoor near Information Kiosk - Harder Rd<br>
+<br>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-68.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0525452774123</longitude>
-				<latitude>37.65604387972314</latitude>
+				<longitude>-122.0550960696475</longitude>
+				<latitude>37.65242916235005</latitude>
 				<altitude>0</altitude>
-				<heading>19.22515031517946</heading>
-				<tilt>82.43115676441992</tilt>
-				<range>106.1795693377847</range>
+				<heading>-120.0077123314862</heading>
+				<tilt>60.00548420835881</tilt>
+				<range>238.4865144743262</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_phone0</styleUrl>
+			<styleUrl>#msn_phone30</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0528397203833,37.65539871290689,0</coordinates>
+				<coordinates>-122.0550960696475,37.65242916235005,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="callbox7">
+			<name>Call Box (Meiklejohn)</name>
+			<description><![CDATA[Call Box [47], Outdoor near Meiklejohn Hall 4 [MI]<br>
+<br> <img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-47.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0550996156576</longitude>
+				<latitude>37.65430866192749</latitude>
+				<altitude>0</altitude>
+				<heading>70.81235739669334</heading>
+				<tilt>0</tilt>
+				<range>47.86647202562537</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_phone6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0550632955925,37.65427012262458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="callbox5">
+			<name>Call Box (Overflow Parking)</name>
+			<description><![CDATA[Call Box [46], Outdoor near Overflow Parking<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-46.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.056786642944</longitude>
+				<latitude>37.65310997318922</latitude>
+				<altitude>0</altitude>
+				<heading>-28.06286078737216</heading>
+				<tilt>5.878429640417548</tilt>
+				<range>79.49727233676663</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_phone40</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.056991938227,37.65312321347199,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="callbox11">
+			<name>Call Box (Physical Education)</name>
+			<description><![CDATA[Call Box [60], Outdoor near Physical Education & Gym 15 [PE]<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-60.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0582064406824</longitude>
+				<latitude>37.65756366627449</latitude>
+				<altitude>0</altitude>
+				<heading>33.43234623259561</heading>
+				<tilt>0</tilt>
+				<range>296.8911397906435</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_phone400</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0573824359451,37.65756946088585,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="callbox8">
+			<name>Call Box (Pioneer Stadium)</name>
+			<description><![CDATA[Call Box [57], Outdoor near Pioneer Stadium<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-57.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0613190980306</longitude>
+				<latitude>37.65663471719049</latitude>
+				<altitude>1.205018492971744</altitude>
+				<heading>-64.72933652894253</heading>
+				<tilt>0.8443471324903803</tilt>
+				<range>108.7589709721605</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_phone20</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0612689770711,37.65661779871569,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="callbox19">
@@ -6651,23 +6631,43 @@
 				<coordinates>-122.0579159116501,37.65873987085892,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="callbox20">
-			<name>Call Box (Lot L)</name>
-			<description><![CDATA[Call Box [67], Outdoor Lot L<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-67.jpg">]]></description>
+		<Placemark id="callbox9">
+			<name>Call Box (Softball Field)</name>
+			<description><![CDATA[Call Box [62], Outdoor near Softball [ST] <br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/98-62.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0585685233845</longitude>
-				<latitude>37.65964167590104</latitude>
+				<longitude>-122.062107170107</longitude>
+				<latitude>37.65686146477739</latitude>
 				<altitude>0</altitude>
-				<heading>69.724961367272</heading>
-				<tilt>27.04821543856839</tilt>
-				<range>89.88227016565033</range>
+				<heading>-86.77618636395718</heading>
+				<tilt>0</tilt>
+				<range>288.597467986725</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_phone8</styleUrl>
+			<styleUrl>#msn_phone2</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0584971529217,37.65963272732041,0</coordinates>
+				<coordinates>-122.0636070377685,37.6573925599354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="callbox13">
+			<name>Call Box (Valley Business &amp; Technology)</name>
+			<description><![CDATA[Call Box [53], Outdoor near Valley Business & Technology Center [VBT]<br>
+<br>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/call-boxes/callboxvbt.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0561027017407</longitude>
+				<latitude>37.6562557251254</latitude>
+				<altitude>7.756552511204877</altitude>
+				<heading>-98.73686570982164</heading>
+				<tilt>75.61352335106507</tilt>
+				<range>188.9630740709818</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_phone11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0552267073941,37.65643055569493,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
@@ -6769,6 +6769,37 @@ Sunday: Closed<br>
 				<coordinates>-122.0537686314581,37.65433249971994,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark id="Market">
+			<name>Market</name>
+			<description><![CDATA[Market,  University Union Old [UU]<br>
+<br>
+<b> Market Hours:</b><br>
+Monday - Thursday: 8:00am  - 8:00pm<br>
+Friday: 8:00am - 7:00pm<br>
+Saturday - Sunday: 10:30am - 5:00pm<br>
+<br>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/dining/market1.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0556651350964</longitude>
+				<latitude>37.65471618345168</latitude>
+				<altitude>5.710549481956947</altitude>
+				<heading>-116.7883640523829</heading>
+				<tilt>64.22898283924322</tilt>
+				<range>93.07096234985924</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_dining4</styleUrl>
+			<ExtendedData>
+				<Data name="keywords">
+					<displayName>Keywords</displayName>
+					<value>food</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0556528965656,37.65506545036969,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="Panda">
 			<name>Panda Express</name>
 			<description><![CDATA[Panda Express, University Union New [UU New]<br>
@@ -6830,35 +6861,29 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0555678133504,37.65495272927549,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="Market">
-			<name>Market</name>
-			<description><![CDATA[Market,  University Union Old [UU]<br>
+		<Placemark>
+			<name>Red Wave</name>
+			<description><![CDATA[Red Wave, University Union Old [UU]<br>
 <br>
-<b> Market Hours:</b><br>
-Monday - Thursday: 8:00am  - 8:00pm<br>
-Friday: 8:00am - 7:00pm<br>
-Saturday - Sunday: 10:30am - 5:00pm<br>
+<b>Red Wave Hours: </b><br>
+Monday - Thursday: 11:00am - 7:00pm<br>
+Friday: 11:00am - 2:00pm<br>
+Saturday - Sunday: Closed<br>
 <br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/dining/market1.jpg">]]></description>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/dining/urbanrev.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0556651350964</longitude>
-				<latitude>37.65471618345168</latitude>
-				<altitude>5.710549481956947</altitude>
-				<heading>-116.7883640523829</heading>
-				<tilt>64.22898283924322</tilt>
-				<range>93.07096234985924</range>
+				<longitude>-122.0558604971767</longitude>
+				<latitude>37.6551120491602</latitude>
+				<altitude>8.478468887416499</altitude>
+				<heading>-19.22483820701671</heading>
+				<tilt>58.19357391643263</tilt>
+				<range>308.3473059517112</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_dining4</styleUrl>
-			<ExtendedData>
-				<Data name="keywords">
-					<displayName>Keywords</displayName>
-					<value>food</value>
-				</Data>
-			</ExtendedData>
+			<styleUrl>#msn_dining0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0556528965656,37.65506545036969,0</coordinates>
+				<coordinates>-122.0557833064831,37.65477443312553,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="Starbucks">
@@ -6956,35 +6981,9 @@ Saturday - Sunday: Closed <br>
 				<coordinates>-122.0556086519519,37.65499020266842,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
-			<name>Red Wave</name>
-			<description><![CDATA[Red Wave, University Union Old [UU]<br>
-<br>
-<b>Red Wave Hours: </b><br>
-Monday - Thursday: 11:00am - 7:00pm<br>
-Friday: 11:00am - 2:00pm<br>
-Saturday - Sunday: Closed<br>
-<br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/dining/urbanrev.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0558604971767</longitude>
-				<latitude>37.6551120491602</latitude>
-				<altitude>8.478468887416499</altitude>
-				<heading>-19.22483820701671</heading>
-				<tilt>58.19357391643263</tilt>
-				<range>308.3473059517112</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_dining0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0557833064831,37.65477443312553,0</coordinates>
-			</Point>
-		</Placemark>
 	</Folder>
 	<Folder id="DisabilityAccesses">
 		<name>Disability Access</name>
-		<open>1</open>
 		<Placemark>
 			<name>All Accessible Pathways</name>
 			<styleUrl>#msn_ylw-pushpin20</styleUrl>
@@ -7008,47 +7007,331 @@ Saturday - Sunday: Closed<br>
 		</Placemark>
 		<Folder>
 			<name>Accessible Paths for People with Disabilities</name>
-			<open>1</open>
-			<Placemark id="disability1">
-				<name>Music Building Pathway</name>
+			<Placemark>
+				<name>Accessible Path from Agora Stage to Upper Level</name>
 				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/mbpath.jpg">]]></description>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/agoratoupper.jpg">]]></description>
 				<LookAt>
-					<longitude>-122.0580090854947</longitude>
-					<latitude>37.65814100918294</latitude>
+					<longitude>-122.0553938669056</longitude>
+					<latitude>37.65539879944218</latitude>
 					<altitude>0</altitude>
-					<heading>35.60279716834453</heading>
-					<tilt>0</tilt>
-					<range>294.376928360305</range>
+					<heading>0.0001363400997117113</heading>
+					<tilt>35.58640299284526</tilt>
+					<range>150.8110126763745</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible000</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible100</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0581623699102,37.65845629735863,150.1905571325759</coordinates>
+					<coordinates>-122.0552527470844,37.65541442504349,0</coordinates>
 				</Point>
 			</Placemark>
-			<Placemark id="disability3">
-				<name>Music Building, East Bay Paratransit</name>
+			<Placemark id="disability21">
+				<name>Accessible Path from Parking J to Arts &amp; Education Building</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/lotj-ae.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0559415745476</longitude>
+					<latitude>37.65880018559734</latitude>
+					<altitude>0</altitude>
+					<heading>-4.834208077278961</heading>
+					<tilt>0</tilt>
+					<range>328.5498528619084</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible50</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0560310782992,37.65899736835672,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability12">
+				<name>Accessible Path from Student Housing to Campus</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/housingtoraw.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0543717649505</longitude>
+					<latitude>37.65426421298518</latitude>
+					<altitude>0</altitude>
+					<heading>62.00648189214666</heading>
+					<tilt>0</tilt>
+					<range>369.6807079018522</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0538223854457,37.65376290734174,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability16">
+				<name>Accessible Path from UPD to 1st Floor Library</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/updtoupper.jpg">]]></description>
+				<LookAt>
+					<gx:ViewerOptions>
+						<gx:option enabled="0" name="historicalimagery"></gx:option>
+						<gx:option enabled="0" name="sunlight"></gx:option>
+						<gx:option name="streetview"></gx:option>
+					</gx:ViewerOptions>
+					<longitude>-122.0365981673607</longitude>
+					<latitude>37.67526385663363</latitude>
+					<altitude>0</altitude>
+					<heading>39.47814795685098</heading>
+					<tilt>86.99153301062859</tilt>
+					<range>2839.811118980404</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible11</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0569981892894,37.65566969637505,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability7">
+				<name>Accessible Path to North and South Science Buildings</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/nsc-ssc.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0542321791255</longitude>
+					<latitude>37.65642985166534</latitude>
+					<altitude>14.97296534392713</altitude>
+					<heading>-115.1914828133376</heading>
+					<tilt>23.37916521921294</tilt>
+					<range>118.4290826913906</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible51</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0540307306396,37.65619606203207,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability18">
+				<name>Accessible Path to Physical Education and Health Center</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/petohealth.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0581803888605</longitude>
+					<latitude>37.65638313505309</latitude>
+					<altitude>0</altitude>
+					<heading>44.76739704558056</heading>
+					<tilt>6.14432359754606</tilt>
+					<range>153.7232791389224</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible20</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0582898299311,37.65646817603838,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability11">
+				<name>Accessible Ramp from Lot D to the RAW</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/lottoraw.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0535152662203</longitude>
+					<latitude>37.65477986452354</latitude>
+					<altitude>9.678594950329186</altitude>
+					<heading>62.0070051490245</heading>
+					<tilt>0</tilt>
+					<range>356.6654160847605</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible7</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.053331178714,37.65477487506455,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability8">
+				<name>Accessible Ramp from Parking Lot H to Student Administration</name>
 				<description><![CDATA[Access for People with Disabilities<br>
 <br>
 
-<a href="https://www.eastbayparatransit.org/"> East Bay Paratransit Website</a>
-<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/dropoff.jpg">]]></description>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/sftovbt.jpg">]]></description>
 				<LookAt>
-					<longitude>-122.0597757003764</longitude>
-					<latitude>37.65783755678403</latitude>
+					<longitude>-122.0538320909026</longitude>
+					<latitude>37.65699948597133</latitude>
 					<altitude>0</altitude>
-					<heading>28.12609511056517</heading>
+					<heading>62.00681157765703</heading>
 					<tilt>0</tilt>
-					<range>530.5865741706697</range>
+					<range>366.5197678317659</range>
 					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible30</styleUrl>
+				<styleUrl>#msn_wheel_chair_accessible6</styleUrl>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0591809397677,37.65818386117822,150.1905571325759</coordinates>
+					<coordinates>-122.0538001307166,37.65767880727007,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability14">
+				<name>Accessible Ramp from RAW to  Science Buildings</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/rawtoscience.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0534283648476</longitude>
+					<latitude>37.65471441058029</latitude>
+					<altitude>9.366457674461712</altitude>
+					<heading>62.00705823717997</heading>
+					<tilt>0</tilt>
+					<range>356.8926598346229</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible3</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0540764534156,37.65453387909678,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability15">
+				<name>Accessible Ramp from University Unions to RAW</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/uutoraw.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.054953574319</longitude>
+					<latitude>37.65472812582404</latitude>
+					<altitude>0</altitude>
+					<heading>65.98697864370625</heading>
+					<tilt>5.321419308987998</tilt>
+					<range>142.1090832449754</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible2</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0552722164809,37.65478209532535,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability6">
+				<name>Accessible Ramp going to Valley Bussiness Technology</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/ramp-to-vbt.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0540601363857</longitude>
+					<latitude>37.65586662165354</latitude>
+					<altitude>0</altitude>
+					<heading>-5.686331691152112</heading>
+					<tilt>0</tilt>
+					<range>320.2612235483609</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible5</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0555963719726,37.65656637218795,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability17">
+				<name>Accessible Ramp Lot A</name>
+				<description>Access for People with Disabilities</description>
+				<LookAt>
+					<longitude>-122.0575019723287</longitude>
+					<latitude>37.65597912019182</latitude>
+					<altitude>0</altitude>
+					<heading>25.77723698276468</heading>
+					<tilt>4.024930630447939</tilt>
+					<range>100.0538127415688</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible14</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0575857912287,37.65588800278563,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability9">
+				<name>Accessible Ramp to North Science Building</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/lottoscience.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0543899946096</longitude>
+					<latitude>37.65611858648882</latitude>
+					<altitude>0</altitude>
+					<heading>62.00647077673888</heading>
+					<tilt>0</tilt>
+					<range>360.587752965867</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0542859751811,37.65656843102367,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability19">
+				<name>Accessible Seating in Pioneer Stadium</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/stadium.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0592350263774</longitude>
+					<latitude>37.65665946943577</latitude>
+					<altitude>4.539554025987961</altitude>
+					<heading>65.47140687612763</heading>
+					<tilt>0</tilt>
+					<range>186.7268167618765</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible10</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0598974350634,37.6571456593777,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability10">
+				<name>Handicapped Parking Behind the Science Building</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/acccessibleparking.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0540601363857</longitude>
+					<latitude>37.65586662165354</latitude>
+					<altitude>0</altitude>
+					<heading>-5.686331691152112</heading>
+					<tilt>0</tilt>
+					<range>320.2612235483609</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible500</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0537369598096,37.6558864100978,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability13">
+				<name>Handicapped Parking in Lot A</name>
+				<description>Access for People with Disabilities</description>
+				<LookAt>
+					<longitude>-122.0565172332865</longitude>
+					<latitude>37.65458023860529</latitude>
+					<altitude>0</altitude>
+					<heading>108.2131573679865</heading>
+					<tilt>35.51537157159836</tilt>
+					<range>180.2114005946871</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible12</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0569360884243,37.65486649148815,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability20">
+				<name>Handicapped Parking in Lot A</name>
+				<description>Access for People with Disabilities</description>
+				<LookAt>
+					<longitude>-122.0576977656549</longitude>
+					<latitude>37.65574614051339</latitude>
+					<altitude>0</altitude>
+					<heading>25.81854050896096</heading>
+					<tilt>5.519739497543177</tilt>
+					<range>96.45967347563595</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible13</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0577716196265,37.65560694082994,150.1905571325759</coordinates>
 				</Point>
 			</Placemark>
 			<Placemark id="disability2">
@@ -7090,6 +7373,49 @@ Saturday - Sunday: Closed<br>
 					<coordinates>-122.0553342125522,37.6534869922896,0</coordinates>
 				</Point>
 			</Placemark>
+			<Placemark id="disability3">
+				<name>Music Building, East Bay Paratransit</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br>
+
+<a href="https://www.eastbayparatransit.org/"> East Bay Paratransit Website</a>
+<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/dropoff.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0597757003764</longitude>
+					<latitude>37.65783755678403</latitude>
+					<altitude>0</altitude>
+					<heading>28.12609511056517</heading>
+					<tilt>0</tilt>
+					<range>530.5865741706697</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible30</styleUrl>
+				<gx:balloonVisibility>1</gx:balloonVisibility>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0591809397677,37.65818386117822,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark id="disability1">
+				<name>Music Building Pathway</name>
+				<description><![CDATA[Access for People with Disabilities<br>
+<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/mbpath.jpg">]]></description>
+				<LookAt>
+					<longitude>-122.0580090854947</longitude>
+					<latitude>37.65814100918294</latitude>
+					<altitude>0</altitude>
+					<heading>35.60279716834453</heading>
+					<tilt>0</tilt>
+					<range>294.376928360305</range>
+					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+				</LookAt>
+				<styleUrl>#msn_wheel_chair_accessible000</styleUrl>
+				<Point>
+					<gx:drawOrder>1</gx:drawOrder>
+					<coordinates>-122.0581623699102,37.65845629735863,150.1905571325759</coordinates>
+				</Point>
+			</Placemark>
 			<Placemark id="disability5">
 				<name>University Theatre Pathway [TH]</name>
 				<description><![CDATA[Access for People with Disabilities <br>
@@ -7109,333 +7435,6 @@ Saturday - Sunday: Closed<br>
 				<Point>
 					<gx:drawOrder>1</gx:drawOrder>
 					<coordinates>-122.0572803260285,37.65929674809586,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability6">
-				<name>Accessible Ramp going to Valley Bussiness Technology</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/ramp-to-vbt.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0540601363857</longitude>
-					<latitude>37.65586662165354</latitude>
-					<altitude>0</altitude>
-					<heading>-5.686331691152112</heading>
-					<tilt>0</tilt>
-					<range>320.2612235483609</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible5</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0555963719726,37.65656637218795,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability7">
-				<name>Accessible Path to North and South Science Buildings</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/nsc-ssc.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0542321791255</longitude>
-					<latitude>37.65642985166534</latitude>
-					<altitude>14.97296534392713</altitude>
-					<heading>-115.1914828133376</heading>
-					<tilt>23.37916521921294</tilt>
-					<range>118.4290826913906</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible51</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0540307306396,37.65619606203207,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability8">
-				<name>Accessible Ramp from Parking Lot H to Student Administration</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br>
-
-<img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/sftovbt.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0538320909026</longitude>
-					<latitude>37.65699948597133</latitude>
-					<altitude>0</altitude>
-					<heading>62.00681157765703</heading>
-					<tilt>0</tilt>
-					<range>366.5197678317659</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible6</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0538001307166,37.65767880727007,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability9">
-				<name>Accessible Ramp to North Science Building</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/lottoscience.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0543899946096</longitude>
-					<latitude>37.65611858648882</latitude>
-					<altitude>0</altitude>
-					<heading>62.00647077673888</heading>
-					<tilt>0</tilt>
-					<range>360.587752965867</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0542859751811,37.65656843102367,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability10">
-				<name>Handicapped Parking Behind the Science Building</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/acccessibleparking.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0540601363857</longitude>
-					<latitude>37.65586662165354</latitude>
-					<altitude>0</altitude>
-					<heading>-5.686331691152112</heading>
-					<tilt>0</tilt>
-					<range>320.2612235483609</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible500</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0537369598096,37.6558864100978,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability11">
-				<name>Accessible Ramp from Lot D to the RAW</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/lottoraw.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0535152662203</longitude>
-					<latitude>37.65477986452354</latitude>
-					<altitude>9.678594950329186</altitude>
-					<heading>62.0070051490245</heading>
-					<tilt>0</tilt>
-					<range>356.6654160847605</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible7</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.053331178714,37.65477487506455,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability12">
-				<name>Accessible Path from Student Housing to Campus</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/housingtoraw.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0543717649505</longitude>
-					<latitude>37.65426421298518</latitude>
-					<altitude>0</altitude>
-					<heading>62.00648189214666</heading>
-					<tilt>0</tilt>
-					<range>369.6807079018522</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible0</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0538223854457,37.65376290734174,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability17">
-				<name>Accessible Ramp Lot A</name>
-				<description>Access for People with Disabilities</description>
-				<LookAt>
-					<longitude>-122.0575019723287</longitude>
-					<latitude>37.65597912019182</latitude>
-					<altitude>0</altitude>
-					<heading>25.77723698276468</heading>
-					<tilt>4.024930630447939</tilt>
-					<range>100.0538127415688</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible14</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0575857912287,37.65588800278563,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability13">
-				<name>Handicapped Parking in Lot A</name>
-				<description>Access for People with Disabilities</description>
-				<LookAt>
-					<longitude>-122.0565172332865</longitude>
-					<latitude>37.65458023860529</latitude>
-					<altitude>0</altitude>
-					<heading>108.2131573679865</heading>
-					<tilt>35.51537157159836</tilt>
-					<range>180.2114005946871</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible12</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0569360884243,37.65486649148815,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability20">
-				<name>Handicapped Parking in Lot A</name>
-				<description>Access for People with Disabilities</description>
-				<LookAt>
-					<longitude>-122.0576977656549</longitude>
-					<latitude>37.65574614051339</latitude>
-					<altitude>0</altitude>
-					<heading>25.81854050896096</heading>
-					<tilt>5.519739497543177</tilt>
-					<range>96.45967347563595</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible13</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0577716196265,37.65560694082994,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability14">
-				<name>Accessible Ramp from RAW to  Science Buildings</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/rawtoscience.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0534283648476</longitude>
-					<latitude>37.65471441058029</latitude>
-					<altitude>9.366457674461712</altitude>
-					<heading>62.00705823717997</heading>
-					<tilt>0</tilt>
-					<range>356.8926598346229</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible3</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0540764534156,37.65453387909678,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability15">
-				<name>Accessible Ramp from University Unions to RAW</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/uutoraw.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.054953574319</longitude>
-					<latitude>37.65472812582404</latitude>
-					<altitude>0</altitude>
-					<heading>65.98697864370625</heading>
-					<tilt>5.321419308987998</tilt>
-					<range>142.1090832449754</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible2</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0552722164809,37.65478209532535,0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability16">
-				<name>Accessible Path from UPD to 1st Floor Library</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/updtoupper.jpg">]]></description>
-				<LookAt>
-					<gx:ViewerOptions>
-						<gx:option enabled="0" name="historicalimagery"></gx:option>
-						<gx:option enabled="0" name="sunlight"></gx:option>
-						<gx:option name="streetview"></gx:option>
-					</gx:ViewerOptions>
-					<longitude>-122.0365981673607</longitude>
-					<latitude>37.67526385663363</latitude>
-					<altitude>0</altitude>
-					<heading>39.47814795685098</heading>
-					<tilt>86.99153301062859</tilt>
-					<range>2839.811118980404</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible11</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0569981892894,37.65566969637505,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability18">
-				<name>Accessible Path to Physical Education and Health Center</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/petohealth.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0581803888605</longitude>
-					<latitude>37.65638313505309</latitude>
-					<altitude>0</altitude>
-					<heading>44.76739704558056</heading>
-					<tilt>6.14432359754606</tilt>
-					<range>153.7232791389224</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible20</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0582898299311,37.65646817603838,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability19">
-				<name>Accessible Seating in Pioneer Stadium</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/stadium.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0592350263774</longitude>
-					<latitude>37.65665946943577</latitude>
-					<altitude>4.539554025987961</altitude>
-					<heading>65.47140687612763</heading>
-					<tilt>0</tilt>
-					<range>186.7268167618765</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible10</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0598974350634,37.6571456593777,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark id="disability21">
-				<name>Accessible Path from Parking J to Arts &amp; Education Building</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/lotj-ae.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0559415745476</longitude>
-					<latitude>37.65880018559734</latitude>
-					<altitude>0</altitude>
-					<heading>-4.834208077278961</heading>
-					<tilt>0</tilt>
-					<range>328.5498528619084</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible50</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0560310782992,37.65899736835672,150.1905571325759</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Accessible Path from Agora Stage to Upper Level</name>
-				<description><![CDATA[Access for People with Disabilities<br>
-<br><img src="http://www.csueastbay.edu/mobile/files/images/map/disability-access/agoratoupper.jpg">]]></description>
-				<LookAt>
-					<longitude>-122.0553938669056</longitude>
-					<latitude>37.65539879944218</latitude>
-					<altitude>0</altitude>
-					<heading>0.0001363400997117113</heading>
-					<tilt>35.58640299284526</tilt>
-					<range>150.8110126763745</range>
-					<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-				</LookAt>
-				<styleUrl>#msn_wheel_chair_accessible100</styleUrl>
-				<Point>
-					<gx:drawOrder>1</gx:drawOrder>
-					<coordinates>-122.0552527470844,37.65541442504349,0</coordinates>
 				</Point>
 			</Placemark>
 		</Folder>
@@ -7478,24 +7477,6 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0558051636877,37.65845031460305,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="BK6">
-			<name>Pioneer Bookstore 6 [BK]</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/bk_6.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0558473887181</longitude>
-				<latitude>37.65557636121909</latitude>
-				<altitude>0</altitude>
-				<heading>32.79708965610531</heading>
-				<tilt>51.21009162527232</tilt>
-				<range>81.21956926511045</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin000</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0557439338728,37.65545759067265,0</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="FH">
 			<name>Field House 21 [FH]</name>
 			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/fhouse.jpg">]]></description>
@@ -7512,24 +7493,6 @@ Saturday - Sunday: Closed<br>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0612026363193,37.65644035068028,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="L13">
-			<name>University Library 13 [LI]</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/li_13.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.05671408213</longitude>
-				<latitude>37.65649911851761</latitude>
-				<altitude>0</altitude>
-				<heading>32.79656017607244</heading>
-				<tilt>51.21009162535361</tilt>
-				<range>81.2195726560293</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_caution1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0564750804044,37.65645516620512,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="MI3">
@@ -7566,6 +7529,60 @@ Saturday - Sunday: Closed<br>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0576783914418,37.65803484566634,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="PE15">
+			<name>Physical Education &amp; Gym 15 [PE]</name>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/pe_15.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.057753794642</longitude>
+				<latitude>37.6564102447069</latitude>
+				<altitude>19.1273552959909</altitude>
+				<heading>-0.000295745692692741</heading>
+				<tilt>50.38279936507023</tilt>
+				<range>55.23224129169208</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0572981702184,37.65666079095232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="PE16">
+			<name>Physical Education &amp; Gym 16 [PE]</name>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/pe_16.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0594928908914</longitude>
+				<latitude>37.65757286099888</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001358238168242908</heading>
+				<tilt>50.38302131215575</tilt>
+				<range>87.30218974315748</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.059558758297,37.65765161462327,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="BK6">
+			<name>Pioneer Bookstore 6 [BK]</name>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/bk_6.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0558473887181</longitude>
+				<latitude>37.65557636121909</latitude>
+				<altitude>0</altitude>
+				<heading>32.79708965610531</heading>
+				<tilt>51.21009162527232</tilt>
+				<range>81.21956926511045</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0557439338728,37.65545759067265,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="PH1">
@@ -7620,42 +7637,6 @@ Saturday - Sunday: Closed<br>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0531564216208,37.65272473427928,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="PE15">
-			<name>Physical Education &amp; Gym 15 [PE]</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/pe_15.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.057753794642</longitude>
-				<latitude>37.6564102447069</latitude>
-				<altitude>19.1273552959909</altitude>
-				<heading>-0.000295745692692741</heading>
-				<tilt>50.38279936507023</tilt>
-				<range>55.23224129169208</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin000</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0572981702184,37.65666079095232,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="PE16">
-			<name>Physical Education &amp; Gym 16 [PE]</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/pe_16.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0594928908914</longitude>
-				<latitude>37.65757286099888</latitude>
-				<altitude>0</altitude>
-				<heading>-0.001358238168242908</heading>
-				<tilt>50.38302131215575</tilt>
-				<range>87.30218974315748</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin000</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.059558758297,37.65765161462327,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="RAW">
@@ -7730,6 +7711,24 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0519540359661,37.65617399744989,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark id="SH14">
+			<name>Student Health Center 14 [SH]</name>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/sh_14.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0570751658297</longitude>
+				<latitude>37.65647463142609</latitude>
+				<altitude>0</altitude>
+				<heading>32.796339581845</heading>
+				<tilt>51.21009248995996</tilt>
+				<range>81.34304540172735</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0569605251034,37.65649934605325,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="SA">
 			<name>Student Services &amp; Administration [SA]</name>
 			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/sa.jpg">]]></description>
@@ -7748,22 +7747,22 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0546644523966,37.65712683090142,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="SH14">
-			<name>Student Health Center 14 [SH]</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/sh_14.jpg">]]></description>
+		<Placemark id="L13">
+			<name>University Library 13 [LI]</name>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/assem-area/li_13.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0570751658297</longitude>
-				<latitude>37.65647463142609</latitude>
+				<longitude>-122.05671408213</longitude>
+				<latitude>37.65649911851761</latitude>
 				<altitude>0</altitude>
-				<heading>32.796339581845</heading>
-				<tilt>51.21009248995996</tilt>
-				<range>81.34304540172735</range>
+				<heading>32.79656017607244</heading>
+				<tilt>51.21009162535361</tilt>
+				<range>81.2195726560293</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#m_ylw-pushpin000</styleUrl>
+			<styleUrl>#msn_caution1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0569605251034,37.65649934605325,0</coordinates>
+				<coordinates>-122.0564750804044,37.65645516620512,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark id="UU4">
@@ -8296,6 +8295,7 @@ Saturday - Sunday: Closed<br>
 		</Placemark>
 		<Folder>
 			<name>General Parking Lot Overlay</name>
+			<open>1</open>
 			<Placemark>
 				<name>Parking Lot A</name>
 				<styleUrl>#msn_ylw-pushpin10</styleUrl>
@@ -8520,6 +8520,26 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0553000736053,37.6523232678178,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>Daily/Hourly Permit Dispenser - Lot A</name>
+			<description><![CDATA[<a href="https://www.csueastbay.edu/parking/parking-and-fees/index.html"> Parkign and Fees Website</a> - Lot A<br>
+<br>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/pay-stations/parking_lot_a_pay.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0578341385854</longitude>
+				<latitude>37.6553040089495</latitude>
+				<altitude>0</altitude>
+				<heading>126.1228007655712</heading>
+				<tilt>52.61571664892134</tilt>
+				<range>273.048259857617</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_track</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0578242872619,37.65591538592056,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="dispenser_LotG">
 			<name>Daily/Hourly Permit Dispensers - Lot G</name>
 			<description><![CDATA[<a href="https://www.csueastbay.edu/parking/parking-and-fees/index.html"> Parkign and Fees Website</a> - Lot G<br>
@@ -8583,29 +8603,10 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0623618785044,37.6578930293178,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
-			<name>Daily/Hourly Permit Dispenser - Lot A</name>
-			<description><![CDATA[<a href="https://www.csueastbay.edu/parking/parking-and-fees/index.html"> Parkign and Fees Website</a> - Lot A<br>
-<br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/pay-stations/parking_lot_a_pay.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0578341385854</longitude>
-				<latitude>37.6553040089495</latitude>
-				<altitude>0</altitude>
-				<heading>126.1228007655712</heading>
-				<tilt>52.61571664892134</tilt>
-				<range>273.048259857617</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_track</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0578242872619,37.65591538592056,0</coordinates>
-			</Point>
-		</Placemark>
 	</Folder>
 	<Folder>
 		<name>Performance Spaces</name>
+		<open>1</open>
 		<Placemark id="AgoraStage">
 			<name>Agora Stage [AG]</name>
 			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/ag.jpg">]]></description>
@@ -8665,6 +8666,7 @@ Saturday - Sunday: Closed<br>
 	</Folder>
 	<Folder id="Housing">
 		<name>Pioneer Heights</name>
+		<open>1</open>
 		<Placemark id="Calaveras">
 			<name>Calaveras</name>
 			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/housing/calaveras.jpg">]]></description>
@@ -8903,6 +8905,7 @@ Saturday - Sunday: Closed<br>
 	</Folder>
 	<Folder>
 		<name>Sustainability</name>
+		<open>1</open>
 		<Placemark>
 			<name>Bike Racks</name>
 			<description>Bike Racks at Meiklejohn Hall</description>
@@ -8978,6 +8981,24 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0532136651778,37.65826449793007,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark id="hydration3">
+			<name>Hydration Station (LI)</name>
+			<description>Hydration Station near University Library</description>
+			<LookAt>
+				<longitude>-122.0559848310167</longitude>
+				<latitude>37.65628635440289</latitude>
+				<altitude>6.463417189874169</altitude>
+				<heading>-132.699218060731</heading>
+				<tilt>61.97316524598098</tilt>
+				<range>139.0352624207527</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin20</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0559594832423,37.65635030166699,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="hydration1">
 			<name>Hydration Station (PE)</name>
 			<description>Hydration Station near PE Building</description>
@@ -9012,24 +9033,6 @@ Saturday - Sunday: Closed<br>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0554970316316,37.65487241447892,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark id="hydration3">
-			<name>Hydration Station (LI)</name>
-			<description>Hydration Station near University Library</description>
-			<LookAt>
-				<longitude>-122.0559848310167</longitude>
-				<latitude>37.65628635440289</latitude>
-				<altitude>6.463417189874169</altitude>
-				<heading>-132.699218060731</heading>
-				<tilt>61.97316524598098</tilt>
-				<range>139.0352624207527</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin20</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0559594832423,37.65635030166699,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -9068,24 +9071,6 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0542268546436,37.65415470415565,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="zipcar2">
-			<name>Zipcar (Pioneer Heights)</name>
-			<description>Zipcar at Pioneer Heights</description>
-			<LookAt>
-				<longitude>-122.0518130092813</longitude>
-				<latitude>37.65231589440788</latitude>
-				<altitude>0</altitude>
-				<heading>26.16066637171842</heading>
-				<tilt>39.73955272896357</tilt>
-				<range>173.5122444628347</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#m_ylw-pushpin20</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0521889212779,37.65256043316826,0</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="zipcar1">
 			<name>Zipcar (Lot D)</name>
 			<description>Zipcar in Parking Lot D</description>
@@ -9104,9 +9089,28 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0530411303131,37.65466504218892,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark id="zipcar2">
+			<name>Zipcar (Pioneer Heights)</name>
+			<description>Zipcar at Pioneer Heights</description>
+			<LookAt>
+				<longitude>-122.0518130092813</longitude>
+				<latitude>37.65231589440788</latitude>
+				<altitude>0</altitude>
+				<heading>26.16066637171842</heading>
+				<tilt>39.73955272896357</tilt>
+				<range>173.5122444628347</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin20</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0521889212779,37.65256043316826,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder>
 		<name>Transportation</name>
+		<open>1</open>
 		<Placemark id="BusStopLI">
 			<name>AC Bus Stop (Rte. 60 - LI)</name>
 			<description><![CDATA[<a href="https://m.actransit.org/index.html#__root__">AC Bus Stop Route 60 Schedule</a><br>
@@ -9148,26 +9152,6 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0534535435509,37.65409808995238,0</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark id="BusStopSA">
-			<name>AC Bus Stop (Rte. 60 - SA)</name>
-			<description><![CDATA[<a href="https://m.actransit.org/index.html#__root__">AC Bus Stop Route 60 Schedule</a><br>
-<br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/transportation-bart/ac-sa.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0536212873659</longitude>
-				<latitude>37.65818624453827</latitude>
-				<altitude>0</altitude>
-				<heading>-36.48094989262132</heading>
-				<tilt>60.0042252281229</tilt>
-				<range>175.9261905989773</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_bus01</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0536269959108,37.65780299433372,0</coordinates>
-			</Point>
-		</Placemark>
 		<Placemark id="ShuttleRAW">
 			<name>CSUEB Shuttle to BART - (RAW)</name>
 			<description><![CDATA[<a href="https://m.actransit.org/index.html#__root__">AC Bus Stop Route 60 Schedule</a><br>
@@ -9188,29 +9172,30 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0535054597533,37.65403374262063,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark id="BusStopSA">
+			<name>AC Bus Stop (Rte. 60 - SA)</name>
+			<description><![CDATA[<a href="https://m.actransit.org/index.html#__root__">AC Bus Stop Route 60 Schedule</a><br>
+<br>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/transportation-bart/ac-sa.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0536212873659</longitude>
+				<latitude>37.65818624453827</latitude>
+				<altitude>0</altitude>
+				<heading>-36.48094989262132</heading>
+				<tilt>60.0042252281229</tilt>
+				<range>175.9261905989773</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_bus01</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0536269959108,37.65780299433372,0</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder>
 		<name>University Facilities</name>
-		<Placemark>
-			<name>Associated Students, Inc. [ASI]</name>
-			<description><![CDATA[<a href="http://www.csueastbay.edu/asi/">Associated Students, Inc. [ASI]  Website</a><br>
-<br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/asi3.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0561125529122</longitude>
-				<latitude>37.65485054046976</latitude>
-				<altitude>10.39155304254544</altitude>
-				<heading>-106.5397814178189</heading>
-				<tilt>23.36759196120085</tilt>
-				<range>118.8474710176869</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0558858375209,37.65463811153153,0</coordinates>
-			</Point>
-		</Placemark>
+		<open>1</open>
 		<Placemark>
 			<name>Academic Advising &amp; Career Education [AACE]</name>
 			<description><![CDATA[<a href="http://www.csueastbay.edu/aace/">Academic Advising & Career Education [AACE] Website</a><br>
@@ -9254,21 +9239,23 @@ Saturday - Sunday: Closed<br>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>The Cave</name>
-			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/cave.jpg">]]></description>
+			<name>Associated Students, Inc. [ASI]</name>
+			<description><![CDATA[<a href="http://www.csueastbay.edu/asi/">Associated Students, Inc. [ASI]  Website</a><br>
+<br>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/asi3.jpg">]]></description>
 			<LookAt>
-				<longitude>-122.0538888105465</longitude>
-				<latitude>37.65647817845643</latitude>
-				<altitude>13.10880063942804</altitude>
-				<heading>71.91721114793288</heading>
-				<tilt>13.2872948936961</tilt>
-				<range>116.3860878451432</range>
+				<longitude>-122.0561125529122</longitude>
+				<latitude>37.65485054046976</latitude>
+				<altitude>10.39155304254544</altitude>
+				<heading>-106.5397814178189</heading>
+				<tilt>23.36759196120085</tilt>
+				<range>118.8474710176869</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_red-stars004</styleUrl>
+			<styleUrl>#msn_red-stars</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.0540166759134,37.65643761562476,0</coordinates>
+				<coordinates>-122.0558858375209,37.65463811153153,0</coordinates>
 			</Point>
 		</Placemark>
 		<Folder>
@@ -9442,6 +9429,43 @@ Saturday - Sunday: Closed<br>
 				<coordinates>-122.0545142627605,37.65756640800006,0</coordinates>
 			</Point>
 		</Placemark>
+		<Placemark>
+			<name>The Cave</name>
+			<description><![CDATA[<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/cave.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0538888105465</longitude>
+				<latitude>37.65647817845643</latitude>
+				<altitude>13.10880063942804</altitude>
+				<heading>71.91721114793288</heading>
+				<tilt>13.2872948936961</tilt>
+				<range>116.3860878451432</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-stars004</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0540166759134,37.65643761562476,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>The Welcome Center [WC]</name>
+			<description><![CDATA[<a href="https://www.csueastbay.edu/visit/">The Welcome Center [WC] Website. </a> The Welcome Center is located on the Student and Faculty Support Building in the 1st floor, Suite 122.<br>
+<br>
+<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/welcome_center.jpg">]]></description>
+			<LookAt>
+				<longitude>-122.0545490667961</longitude>
+				<latitude>37.65806443597016</latitude>
+				<altitude>0</altitude>
+				<heading>30.44112094950364</heading>
+				<tilt>31.73705394660052</tilt>
+				<range>109.9944489173174</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_red-stars6</styleUrl>
+			<Point>
+				<coordinates>-122.054597836073,37.65791554396371,0</coordinates>
+			</Point>
+		</Placemark>
 		<Placemark id="library">
 			<name>University Library [LI]</name>
 			<description><![CDATA[<a href="http://library.csueastbay.edu/home">University Library [LI] Website</a><br>
@@ -9525,25 +9549,6 @@ Saturday - Sunday: Closed<br>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0559072986533,37.65481776678965,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>The Welcome Center [WC]</name>
-			<description><![CDATA[<a href="https://www.csueastbay.edu/visit/">The Welcome Center [WC] Website. </a> The Welcome Center is located on the Student and Faculty Support Building in the 1st floor, Suite 122.<br>
-<br>
-<img src="http://www.csueastbay.edu/mobile/files/images/map/buildings-landmarks/welcome_center.jpg">]]></description>
-			<LookAt>
-				<longitude>-122.0545490667961</longitude>
-				<latitude>37.65806443597016</latitude>
-				<altitude>0</altitude>
-				<heading>30.44112094950364</heading>
-				<tilt>31.73705394660052</tilt>
-				<range>109.9944489173174</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_red-stars6</styleUrl>
-			<Point>
-				<coordinates>-122.054597836073,37.65791554396371,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
